@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel=icon href=favicon.png>
+    <title>GravityOS | World's First Web Based Operating System</title>
+    <meta name=Description
+        content="GravityOS - Affordable Web Based operating system. It provides a cross-platform environment with Simple UI inside web browser.">
+    <meta name=Keywords
+        content="GravityOS, Gravity, operating system, online, internet, virtual computer, web os, web desktop, webtop, internet application, progressive web applications, PWA, cloud computing, emulator, explorer, program, game, start, taskbar">
+    <link rel=canonical href=https://www.gravityos.tech>
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css>
+    <link rel=manifest href=manifest.webmanifest>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9127297-3"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9127297-3');
+
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        if (getParameterByName('mobile') !== 'true') {
+            /*document.querySelector('#adScript').remove();*/
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.setAttribute('data-cfasync', false);
+            script.setAttribute('async', '');
+            script.src = 'https://propu.sh/pfe/current/tag.min.js?z=2964683';
+
+            document.head.appendChild(script);
+            console.log('ad script was added.');
+        }</script>
+    <link href=css/app.db206e23.css rel=preload as=style>
+    <link href=css/chunk-vendors.14824bc3.css rel=preload as=style>
+    <link href=js/app.7de24577.js rel=preload as=script>
+    <link href=js/chunk-vendors.a84522e6.js rel=preload as=script>
+    <link href=css/chunk-vendors.14824bc3.css rel=stylesheet>
+    <link href=css/app.db206e23.css rel=stylesheet>
+</head>
+
+<body><noscript><strong>We're sorry but GravityOS doesn't work properly without JavaScript enabled. Please enable it
+            to continue.</strong>
+        <p>For more information about project please visit</p>
+        <ul>
+            <li><a href=https://www.gravityos.tech>GravityOS</a></li>
+        </ul>
+        <p></p>
+    </noscript>
+    <div id=app></div>
+    <script>//this.onpush = function (event) {
+        //    console.log(event.data);
+        //}
+
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then(function (serviceWorkerRegistration) {
+                    console.log("Service Worker registered with scope:", serviceWorkerRegistration.scope);
+                    //serviceWorkerRegistration.pushManager.subscribe().then(
+                    //    function (pushSubscription) {
+                    //        console.log(pushSubscription.subscriptionId);
+                    //        console.log(pushSubscription.endpoint);
+                    //    }, function (error) {
+                    //        console.log(error);
+                    //    }
+                    //);
+                }).catch(function (err) {
+                    console.log("Service worker registration failed:", err);
+                });
+        }</script>
+    <script src=js/chunk-vendors.a84522e6.js></script>
+    <script src=js/app.7de24577.js></script>
+</body>
+
+</html>
