@@ -48,8 +48,8 @@
       var i = Object.create(null);
       if (
         (a.r(i),
-        Object.defineProperty(i, "default", { enumerable: !0, value: t }),
-        2 & e && "string" != typeof t)
+          Object.defineProperty(i, "default", { enumerable: !0, value: t }),
+          2 & e && "string" != typeof t)
       )
         for (var n in t)
           a.d(
@@ -65,11 +65,11 @@
       var e =
         t && t.__esModule
           ? function () {
-              return t["default"];
-            }
+            return t["default"];
+          }
           : function () {
-              return t;
-            };
+            return t;
+          };
       return a.d(e, "a", e), e;
     }),
     (a.o = function (t, e) {
@@ -424,7 +424,7 @@
   "4a46": function (t, e, i) {
     t.exports = i.p + "img/doom_fire.0b00282d.png";
   },
-  "4b64": function (t, e, i) {},
+  "4b64": function (t, e, i) { },
   "4b7c": function (t, e, i) {
     t.exports = i.p + "img/tic_tac_toe.e8390791.png";
   },
@@ -586,99 +586,99 @@
                 t.isMobile || t.hideSideBar
                   ? t._e()
                   : i(
-                      "v-navigation-drawer",
-                      {
-                        staticStyle: { "z-index": "28" },
-                        attrs: {
-                          color: t.themePrimaryColor,
-                          absolute: "",
-                          right: "",
-                          width: "307",
-                        },
-                        model: {
-                          value: t.drawer,
-                          callback: function (e) {
-                            t.drawer = e;
-                          },
-                          expression: "drawer",
-                        },
+                    "v-navigation-drawer",
+                    {
+                      staticStyle: { "z-index": "28" },
+                      attrs: {
+                        color: t.themePrimaryColor,
+                        absolute: "",
+                        right: "",
+                        width: "307",
                       },
-                      [
-                        i(
-                          "v-layout",
-                          {
-                            attrs: {
-                              "justify-space-between": "",
-                              column: "",
-                              "fill-height": "",
-                            },
+                      model: {
+                        value: t.drawer,
+                        callback: function (e) {
+                          t.drawer = e;
+                        },
+                        expression: "drawer",
+                      },
+                    },
+                    [
+                      i(
+                        "v-layout",
+                        {
+                          attrs: {
+                            "justify-space-between": "",
+                            column: "",
+                            "fill-height": "",
                           },
-                          [
-                            i(
-                              "v-list",
-                              { attrs: { "three-line": "", dense: "" } },
-                              [
-                                i(
-                                  "v-list-item",
-                                  [
-                                    i(
-                                      "v-list-item-content",
-                                      [
-                                        i("v-list-item-title", [
-                                          t._v(
-                                            "Welcome to the alpha version of GravityOS."
-                                          ),
-                                        ]),
-                                        i("v-list-item-subtitle", [
-                                          t._v(
-                                            "It is the World's First Web based Operating System."
-                                          ),
-                                        ]),
-                                      ],
-                                      1
-                                    ),
-                                  ],
-                                  1
-                                ),
-                              ],
-                              1
-                            ),
-                            i("v-spacer"),
-                            i(
-                              "v-list",
-                              {
-                                staticClass: "mb-12",
-                                attrs: {
-                                  subheader: "",
-                                  "two-line": "",
-                                  dense: "",
-                                  "justify-end": "",
-                                },
+                        },
+                        [
+                          i(
+                            "v-list",
+                            { attrs: { "three-line": "", dense: "" } },
+                            [
+                              i(
+                                "v-list-item",
+                                [
+                                  i(
+                                    "v-list-item-content",
+                                    [
+                                      i("v-list-item-title", [
+                                        t._v(
+                                          "Welcome to the alpha version of GravityOS."
+                                        ),
+                                      ]),
+                                      i("v-list-item-subtitle", [
+                                        t._v(
+                                          "It is the World's First Web based Operating System."
+                                        ),
+                                      ]),
+                                    ],
+                                    1
+                                  ),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                          i("v-spacer"),
+                          i(
+                            "v-list",
+                            {
+                              staticClass: "mb-12",
+                              attrs: {
+                                subheader: "",
+                                "two-line": "",
+                                dense: "",
+                                "justify-end": "",
                               },
-                              [
-                                i("v-subheader", [t._v("Support project")]),
-                                i(
-                                  "v-list-item",
-                                  [
-                                    i(
-                                      "v-list-item-content",
-                                      [
-                                        i("v-list-item-subtitle"),
-                                      ],
-                                      1
-                                    ),
-                                  ],
-                                  1
-                                ),
-                              ],
-                              1
-                            ),
-                          ],
-                          1
-                        ),
-                      ],
-                      1
-                    ),
+                            },
+                            [
+                              i("v-subheader", [t._v("Support project")]),
+                              i(
+                                "v-list-item",
+                                [
+                                  i(
+                                    "v-list-item-content",
+                                    [
+                                      i("v-list-item-subtitle"),
+                                    ],
+                                    1
+                                  ),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                    ],
+                    1
+                  ),
                 i(
                   "v-app-bar",
                   {
@@ -791,7 +791,7 @@
                               return t.toggleAppUrl(
                                 2,
                                 "https://www.google.com/search?igu=1&q=" +
-                                  t.search,
+                                t.search,
                                 !0
                               );
                             },
@@ -977,36 +977,36 @@
                     t.isMobile || t.hideSideBar
                       ? t._e()
                       : i(
-                          "v-btn",
-                          {
-                            attrs: { icon: "" },
-                            on: {
-                              click: function (e) {
-                                e.stopPropagation(), (t.drawer = !t.drawer);
-                              },
+                        "v-btn",
+                        {
+                          attrs: { icon: "" },
+                          on: {
+                            click: function (e) {
+                              e.stopPropagation(), (t.drawer = !t.drawer);
                             },
                           },
-                          [i("v-icon", [t._v("mdi-message-outline")])],
-                          1
-                        ),
+                        },
+                        [i("v-icon", [t._v("mdi-message-outline")])],
+                        1
+                      ),
                   ],
                   2
                 ),
                 t._l(t.apps, function (e) {
                   return i(
-                    "silveos-window-style-white",
+                    "gravity-window-style-white",
                     { key: e.id },
                     [
                       i(
-                        "silveos-window",
+                        "gravity-window",
                         {
                           style: [
                             t.isMaximizedWindow(e)
                               ? {
-                                  width: "calc(100vw - (100vw - 100%))",
-                                  height:
-                                    "calc(100vh - " + t.taskbarHeight + "px)",
-                                }
+                                width: "calc(100vw - (100vw - 100%))",
+                                height:
+                                  "calc(100vh - " + t.taskbarHeight + "px)",
+                              }
                               : { width: e.width, height: e.height },
                           ],
                           attrs: {
@@ -1048,23 +1048,23 @@
                         [
                           0 === e.type
                             ? [
-                                e.isTaskbarVisible
-                                  ? i("div", { staticClass: "wrap" }, [
-                                      i("iframe", {
-                                        staticClass: "frame",
-                                        attrs: {
-                                          src:
-                                            t.isMobile && e.mobileUrl
-                                              ? e.mobileUrl
-                                              : e.url,
-                                        },
-                                      }),
-                                    ])
-                                  : t._e(),
-                              ]
+                              e.isTaskbarVisible
+                                ? i("div", { staticClass: "wrap" }, [
+                                  i("iframe", {
+                                    staticClass: "frame",
+                                    attrs: {
+                                      src:
+                                        t.isMobile && e.mobileUrl
+                                          ? e.mobileUrl
+                                          : e.url,
+                                    },
+                                  }),
+                                ])
+                                : t._e(),
+                            ]
                             : 1 === e.type
-                            ? [i(e.component, { tag: "component" })]
-                            : [
+                              ? [i(e.component, { tag: "component" })]
+                              : [
                                 i(e.component, {
                                   tag: "component",
                                   attrs: { url: e.url },
@@ -1129,17 +1129,17 @@
       r = [],
       c =
         (i("6b54"),
-        i("386d"),
-        function () {
-          var t = this,
-            e = t.$createElement,
-            i = t._self._c || e;
-          return i("div", { staticClass: "dt", style: t.customStyle }, [
-            t._v(t._s(t.displayTime)),
-            i("br"),
-            t._v(t._s(t.displayDate)),
-          ]);
-        }),
+          i("386d"),
+          function () {
+            var t = this,
+              e = t.$createElement,
+              i = t._self._c || e;
+            return i("div", { staticClass: "dt", style: t.customStyle }, [
+              t._v(t._s(t.displayTime)),
+              i("br"),
+              t._v(t._s(t.displayDate)),
+            ]);
+          }),
       l = [],
       u = i("c1df"),
       h = i.n(u),
@@ -1244,9 +1244,9 @@
                                 style: [
                                   t.isMobile
                                     ? {
-                                        "font-weight": "bold",
-                                        "font-size": ".4rem",
-                                      }
+                                      "font-weight": "bold",
+                                      "font-size": ".4rem",
+                                    }
                                     : { "font-weight": "bold" },
                                 ],
                               },
@@ -1734,8 +1734,8 @@
                                       [
                                         t._v(
                                           "\n                                        " +
-                                            t._s(t.weekDay) +
-                                            "\n                                    "
+                                          t._s(t.weekDay) +
+                                          "\n                                    "
                                         ),
                                       ]
                                     ),
@@ -1745,8 +1745,8 @@
                                       [
                                         t._v(
                                           "\n                                        " +
-                                            t._s(t.monthDay) +
-                                            "\n                                    "
+                                          t._s(t.monthDay) +
+                                          "\n                                    "
                                         ),
                                       ]
                                     ),
@@ -2481,11 +2481,11 @@
         var i = null != arguments[e] ? arguments[e] : {};
         e % 2
           ? k(Object(i), !0).forEach(function (e) {
-              Object(y["a"])(t, e, i[e]);
-            })
+            Object(y["a"])(t, e, i[e]);
+          })
           : Object.getOwnPropertyDescriptors
-          ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(i))
-          : k(Object(i)).forEach(function (e) {
+            ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(i))
+            : k(Object(i)).forEach(function (e) {
               Object.defineProperty(
                 t,
                 e,
@@ -2496,280 +2496,280 @@
       return t;
     }
     var C = {
-        name: "MetroTile",
-        props: {
-          faceStyle: { type: Object },
-          frontStyle: { type: Object },
-          backStyle: { type: Object },
-          rightStyle: { type: Object },
-          leftStyle: { type: Object },
-          topStyle: { type: Object },
-          bottomStyle: { type: Object },
-          rotateX: { type: Number, default: 0 },
-          height: { type: Number, default: 200 },
-          width: { type: Number, default: 250 },
-          perspective: { type: Number, default: 750 },
-          maxTiltX: { type: Number, default: 20 },
-          maxTiltY: { type: Number, default: 10 },
-          clickGlareSize: { type: Number, default: 90 },
-          clickGlareOpacity: { type: Number, default: 0.2 },
-          hoverGlareOpacity: { type: Number, default: 0.3 },
-        },
-        data: function () {
+      name: "MetroTile",
+      props: {
+        faceStyle: { type: Object },
+        frontStyle: { type: Object },
+        backStyle: { type: Object },
+        rightStyle: { type: Object },
+        leftStyle: { type: Object },
+        topStyle: { type: Object },
+        bottomStyle: { type: Object },
+        rotateX: { type: Number, default: 0 },
+        height: { type: Number, default: 200 },
+        width: { type: Number, default: 250 },
+        perspective: { type: Number, default: 750 },
+        maxTiltX: { type: Number, default: 20 },
+        maxTiltY: { type: Number, default: 10 },
+        clickGlareSize: { type: Number, default: 90 },
+        clickGlareOpacity: { type: Number, default: 0.2 },
+        hoverGlareOpacity: { type: Number, default: 0.3 },
+      },
+      data: function () {
+        return {
+          curTiltTransform: "",
+          clickGlareTop: 0,
+          clickGlareLeft: 0,
+          glareScale: 5,
+          hoverX: 0,
+          hoverY: 0,
+          mouseDownX: 0,
+          mouseDownY: 0,
+          isHover: !1,
+          isMouseDown: !1,
+          isAnimating: !1,
+        };
+      },
+      computed: {
+        sceneStyle: function () {
           return {
-            curTiltTransform: "",
-            clickGlareTop: 0,
-            clickGlareLeft: 0,
-            glareScale: 5,
-            hoverX: 0,
-            hoverY: 0,
-            mouseDownX: 0,
-            mouseDownY: 0,
-            isHover: !1,
-            isMouseDown: !1,
-            isAnimating: !1,
+            position: "relative",
+            cursor: "pointer",
+            width: "".concat(this.width, "vw"),
+            height: "".concat(this.height, "vh"),
+            perspective: "".concat(this.perspective, "em"),
+            overflow: "hidden",
+            "background-color": "rgba(153,153,153,0.3)",
           };
         },
-        computed: {
-          sceneStyle: function () {
-            return {
-              position: "relative",
-              cursor: "pointer",
+        curFaceTransform: function () {
+          return "translateZ(-"
+            .concat(this.height / 2, "vh) rotateX(")
+            .concat(this.rotateX, "deg)");
+        },
+        boxContainerStyle: function () {
+          return {
+            width: "100%",
+            height: "100%",
+            position: "relative",
+            "transform-style": "preserve-3d",
+            transition: "transform 0.5s",
+            transform: ""
+              .concat(this.curTiltTransform, " ")
+              .concat(this.curFaceTransform),
+            "will-change": "transform",
+          };
+        },
+        glareBoundingBox: function () {
+          var t = Math.max(this.height / 2, this.width / 2),
+            e = this.perspective
+              ? this.perspective / (this.perspective - t)
+              : 1;
+          return {
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            position: "absolute",
+            overflow: "hidden",
+            "transform-style": "preserve-3d",
+            transform: "scale("
+              .concat(1 / e, ", ")
+              .concat(1 / e, ") translateZ(")
+              .concat(t, "em"),
+            "pointer-events": "none",
+          };
+        },
+        hoverGlareStyle: function () {
+          return {
+            position: "absolute",
+            width: "".concat(2 * this.width, "vw"),
+            height: "".concat(2 * this.height, "vh"),
+            "background-image":
+              "radial-gradient(circle at center, rgba(255,255,255, 0.7) 0%, rgba(255,255,255,0.1) 100%)",
+            transform: "translate("
+              .concat(this.hoverX - this.width / 2, "vw, ")
+              .concat(this.hoverY - this.height / 2, "vh) translate(-")
+              .concat(this.width / 2, "vw, -")
+              .concat(this.height / 2, "vh)"),
+            opacity: this.isHover ? this.hoverGlareOpacity : 0,
+            "transform-style": "preserve-3d",
+          };
+        },
+        clickGlareStyle: function () {
+          var t = this.clickGlareSize * this.glareScale,
+            e = (t - this.clickGlareSize) / 2,
+            i = this.clickGlareTop - this.clickGlareSize / 2,
+            n = this.clickGlareLeft - this.clickGlareSize / 2;
+          return {
+            position: "absolute",
+            width: "".concat(this.clickGlareSize, "vw"),
+            height: "".concat(this.clickGlareSize, "vh"),
+            opacity: 0,
+            "border-radius": "50%",
+            "--glare-top": "".concat(i, "em"),
+            "--glare-left": "".concat(n, "em"),
+            "--glare-opacity": "".concat(this.clickGlareOpacity),
+            "--glare-scaled-size": "".concat(t, "em"),
+            "--glare-scaled-top": "".concat(i - e, "em"),
+            "--glare-scaled-left": "".concat(n - e, "em"),
+            "transform-style": "preserve-3d",
+          };
+        },
+        frontFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.frontStyle),
+            {},
+            {
+              position: "absolute",
               width: "".concat(this.width, "vw"),
               height: "".concat(this.height, "vh"),
-              perspective: "".concat(this.perspective, "em"),
-              overflow: "hidden",
-              "background-color": "rgba(153,153,153,0.3)",
-            };
-          },
-          curFaceTransform: function () {
-            return "translateZ(-"
-              .concat(this.height / 2, "vh) rotateX(")
-              .concat(this.rotateX, "deg)");
-          },
-          boxContainerStyle: function () {
-            return {
-              width: "100%",
-              height: "100%",
-              position: "relative",
-              "transform-style": "preserve-3d",
-              transition: "transform 0.5s",
-              transform: ""
-                .concat(this.curTiltTransform, " ")
-                .concat(this.curFaceTransform),
-              "will-change": "transform",
-            };
-          },
-          glareBoundingBox: function () {
-            var t = Math.max(this.height / 2, this.width / 2),
-              e = this.perspective
-                ? this.perspective / (this.perspective - t)
-                : 1;
-            return {
-              width: "100%",
-              height: "100%",
-              top: 0,
-              left: 0,
-              position: "absolute",
-              overflow: "hidden",
-              "transform-style": "preserve-3d",
-              transform: "scale("
-                .concat(1 / e, ", ")
-                .concat(1 / e, ") translateZ(")
-                .concat(t, "em"),
-              "pointer-events": "none",
-            };
-          },
-          hoverGlareStyle: function () {
-            return {
-              position: "absolute",
-              width: "".concat(2 * this.width, "vw"),
-              height: "".concat(2 * this.height, "vh"),
-              "background-image":
-                "radial-gradient(circle at center, rgba(255,255,255, 0.7) 0%, rgba(255,255,255,0.1) 100%)",
-              transform: "translate("
-                .concat(this.hoverX - this.width / 2, "vw, ")
-                .concat(this.hoverY - this.height / 2, "vh) translate(-")
-                .concat(this.width / 2, "vw, -")
-                .concat(this.height / 2, "vh)"),
-              opacity: this.isHover ? this.hoverGlareOpacity : 0,
-              "transform-style": "preserve-3d",
-            };
-          },
-          clickGlareStyle: function () {
-            var t = this.clickGlareSize * this.glareScale,
-              e = (t - this.clickGlareSize) / 2,
-              i = this.clickGlareTop - this.clickGlareSize / 2,
-              n = this.clickGlareLeft - this.clickGlareSize / 2;
-            return {
-              position: "absolute",
-              width: "".concat(this.clickGlareSize, "vw"),
-              height: "".concat(this.clickGlareSize, "vh"),
-              opacity: 0,
-              "border-radius": "50%",
-              "--glare-top": "".concat(i, "em"),
-              "--glare-left": "".concat(n, "em"),
-              "--glare-opacity": "".concat(this.clickGlareOpacity),
-              "--glare-scaled-size": "".concat(t, "em"),
-              "--glare-scaled-top": "".concat(i - e, "em"),
-              "--glare-scaled-left": "".concat(n - e, "em"),
-              "transform-style": "preserve-3d",
-            };
-          },
-          frontFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.frontStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.width, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateZ(".concat(this.height / 2, "vh)"),
-                outline: "1px solid transparent",
-              }
-            );
-          },
-          backFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.backStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.width, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateZ(-".concat(
-                  this.height / 2,
-                  "vh) rotateZ(180deg) rotateY(180deg)"
-                ),
-                outline: "1px solid transparent",
-              }
-            );
-          },
-          topFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.topStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.width, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateY(-".concat(
-                  this.height / 2,
-                  "vh) rotateX(90deg)"
-                ),
-                outline: "1px solid transparent",
-              }
-            );
-          },
-          bottomFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.bottomStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.width, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateY(".concat(
-                  this.height - this.height / 2,
-                  "vh) rotateX(-90deg)"
-                ),
-                outline: "1px solid transparent",
-              }
-            );
-          },
-          leftFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.leftStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.height, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateX(-".concat(
-                  this.height / 2,
-                  "vh) rotateY(-90deg)"
-                ),
-                outline: "1px solid transparent",
-              }
-            );
-          },
-          rightFaceStyle: function () {
-            return x(
-              x(x({}, this.faceStyle), this.rightStyle),
-              {},
-              {
-                position: "absolute",
-                width: "".concat(this.height, "vw"),
-                height: "".concat(this.height, "vh"),
-                transform: "translateX(".concat(
-                  this.width - this.height / 2,
-                  "vh) rotateY(90deg)"
-                ),
-                outline: "1px solid transparent",
-              }
-            );
-          },
+              transform: "translateZ(".concat(this.height / 2, "vh)"),
+              outline: "1px solid transparent",
+            }
+          );
         },
-        methods: {
-          getRelativePos2Scene: function (t, e) {
-            var i = this.$refs.scene.getBoundingClientRect();
-            return {
-              x: t - (i.left + window.scrollX),
-              y: e - (i.top + window.scrollY),
-            };
-          },
-          onMouseDown: function (t) {
-            var e = this.getRelativePos2Scene(t.pageX, t.pageY);
-            (this.mouseDownX = t.pageX),
-              (this.mouseDownY = t.pageY),
-              this.tiltTile(e),
-              this.clickGlare(e),
-              this.setMouseDown(!0);
-          },
-          onMouseUp: function (t) {
-            this.$emit("click", t), this.recoverTile(), this.setMouseDown(!1);
-          },
-          onMouseMove: function (t) {
-            var e = this.getRelativePos2Scene(t.pageX, t.pageY);
-            this.hoverGlare(e);
-          },
-          onMouseLeave: function () {
-            this.recoverTile(), this.resetHover();
-          },
-          onTouchMove: function (t) {
-            this.$emit("touchmove", t);
-          },
-          tiltTile: function (t) {
-            var e = t.x / this.width,
-              i = t.y / this.height,
-              n = ((0.5 - i) * this.maxTiltX).toFixed(2),
-              o = ((e - 0.5) * this.maxTiltY).toFixed(2);
-            this.curTiltTransform = "rotateX("
-              .concat(n, "deg) rotateY(")
-              .concat(o, "deg)");
-          },
-          recoverTile: function () {
-            this.curTiltTransform = "";
-          },
-          resetHover: function () {
-            this.isHover = !1;
-          },
-          clickGlare: function (t) {
-            (this.clickGlareTop = t.y),
-              (this.clickGlareLeft = t.x),
-              (this.isAnimating = !0);
-          },
-          resetAnimation: function () {
-            this.isAnimating = !1;
-          },
-          hoverGlare: function (t) {
-            (this.isHover = !0), (this.hoverX = t.x), (this.hoverY = t.y);
-          },
-          setMouseDown: function (t) {
-            this.isMouseDown = t;
-          },
+        backFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.backStyle),
+            {},
+            {
+              position: "absolute",
+              width: "".concat(this.width, "vw"),
+              height: "".concat(this.height, "vh"),
+              transform: "translateZ(-".concat(
+                this.height / 2,
+                "vh) rotateZ(180deg) rotateY(180deg)"
+              ),
+              outline: "1px solid transparent",
+            }
+          );
+        },
+        topFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.topStyle),
+            {},
+            {
+              position: "absolute",
+              width: "".concat(this.width, "vw"),
+              height: "".concat(this.height, "vh"),
+              transform: "translateY(-".concat(
+                this.height / 2,
+                "vh) rotateX(90deg)"
+              ),
+              outline: "1px solid transparent",
+            }
+          );
+        },
+        bottomFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.bottomStyle),
+            {},
+            {
+              position: "absolute",
+              width: "".concat(this.width, "vw"),
+              height: "".concat(this.height, "vh"),
+              transform: "translateY(".concat(
+                this.height - this.height / 2,
+                "vh) rotateX(-90deg)"
+              ),
+              outline: "1px solid transparent",
+            }
+          );
+        },
+        leftFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.leftStyle),
+            {},
+            {
+              position: "absolute",
+              width: "".concat(this.height, "vw"),
+              height: "".concat(this.height, "vh"),
+              transform: "translateX(-".concat(
+                this.height / 2,
+                "vh) rotateY(-90deg)"
+              ),
+              outline: "1px solid transparent",
+            }
+          );
+        },
+        rightFaceStyle: function () {
+          return x(
+            x(x({}, this.faceStyle), this.rightStyle),
+            {},
+            {
+              position: "absolute",
+              width: "".concat(this.height, "vw"),
+              height: "".concat(this.height, "vh"),
+              transform: "translateX(".concat(
+                this.width - this.height / 2,
+                "vh) rotateY(90deg)"
+              ),
+              outline: "1px solid transparent",
+            }
+          );
         },
       },
+      methods: {
+        getRelativePos2Scene: function (t, e) {
+          var i = this.$refs.scene.getBoundingClientRect();
+          return {
+            x: t - (i.left + window.scrollX),
+            y: e - (i.top + window.scrollY),
+          };
+        },
+        onMouseDown: function (t) {
+          var e = this.getRelativePos2Scene(t.pageX, t.pageY);
+          (this.mouseDownX = t.pageX),
+            (this.mouseDownY = t.pageY),
+            this.tiltTile(e),
+            this.clickGlare(e),
+            this.setMouseDown(!0);
+        },
+        onMouseUp: function (t) {
+          this.$emit("click", t), this.recoverTile(), this.setMouseDown(!1);
+        },
+        onMouseMove: function (t) {
+          var e = this.getRelativePos2Scene(t.pageX, t.pageY);
+          this.hoverGlare(e);
+        },
+        onMouseLeave: function () {
+          this.recoverTile(), this.resetHover();
+        },
+        onTouchMove: function (t) {
+          this.$emit("touchmove", t);
+        },
+        tiltTile: function (t) {
+          var e = t.x / this.width,
+            i = t.y / this.height,
+            n = ((0.5 - i) * this.maxTiltX).toFixed(2),
+            o = ((e - 0.5) * this.maxTiltY).toFixed(2);
+          this.curTiltTransform = "rotateX("
+            .concat(n, "deg) rotateY(")
+            .concat(o, "deg)");
+        },
+        recoverTile: function () {
+          this.curTiltTransform = "";
+        },
+        resetHover: function () {
+          this.isHover = !1;
+        },
+        clickGlare: function (t) {
+          (this.clickGlareTop = t.y),
+            (this.clickGlareLeft = t.x),
+            (this.isAnimating = !0);
+        },
+        resetAnimation: function () {
+          this.isAnimating = !1;
+        },
+        hoverGlare: function (t) {
+          (this.isHover = !0), (this.hoverX = t.x), (this.hoverY = t.y);
+        },
+        setMouseDown: function (t) {
+          this.isMouseDown = t;
+        },
+      },
+    },
       S = C,
       O = (i("ccb7"), Object(f["a"])(S, w, b, !1, null, null, null)),
       M = O.exports,
@@ -3209,17 +3209,17 @@
         methods: {
           getWidth: function (t) {
             var e =
-                arguments.length > 1 && void 0 !== arguments[1]
-                  ? arguments[1]
-                  : 1,
+              arguments.length > 1 && void 0 !== arguments[1]
+                ? arguments[1]
+                : 1,
               i = this.isMobile ? 5 : 3.5;
             return i * t - I * e;
           },
           getHeight: function (t) {
             var e =
-                arguments.length > 1 && void 0 !== arguments[1]
-                  ? arguments[1]
-                  : 1,
+              arguments.length > 1 && void 0 !== arguments[1]
+                ? arguments[1]
+                : 1,
               i = this.isMobile ? 10 : 7;
             return i * t - I * e;
           },
@@ -3248,8 +3248,8 @@
             0 == this.rotateNews
               ? this.toggleAppUrl(17, "https://news.sky.com/world", !0)
               : -90 == this.rotateNews
-              ? this.toggleAppUrl(17, "https://lite.cnn.com/", !0)
-              : this.toggleAppUrl(17, "https://www.thesun.co.uk/news/", !0);
+                ? this.toggleAppUrl(17, "https://lite.cnn.com/", !0)
+                : this.toggleAppUrl(17, "https://www.thesun.co.uk/news/", !0);
           },
           toggleAppUrl: function (t, e, i) {
             this.$store.dispatch("toggleAppUrlAction", {
@@ -3340,190 +3340,190 @@
       VSpacer: Z["a"],
     });
     var et = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "v-container",
-          { staticStyle: { padding: "1vw", margin: "0" } },
-          [
-            i("div", { attrs: { id: "start-modern" } }, [
-              i(
-                "div",
-                { attrs: { id: "start-modern-search" } },
-                [
-                  i("v-text-field", {
-                    attrs: {
-                      "hide-details": "",
-                      label: "Type here to search",
-                      "prepend-inner-icon": "mdi-magnify",
-                      light: "",
-                      height: "1.25vw",
-                      "single-line": "",
-                    },
-                    on: {
-                      click: function (t) {
-                        t.stopPropagation();
-                      },
-                      keyup: t.searchInternet,
-                      "click:prepend-inner": function (e) {
-                        return t.toggleAppUrl(
-                          2,
-                          "https://www.google.com/search?igu=1&q=" + t.search,
-                          !0
-                        );
-                      },
-                    },
-                    model: {
-                      value: t.search,
-                      callback: function (e) {
-                        t.search = e;
-                      },
-                      expression: "search",
-                    },
-                  }),
-                ],
-                1
-              ),
-              i("div", { staticClass: "start-title" }, [t._v("All app")]),
-              i(
-                "div",
-                { staticClass: "start-wrapper" },
-                t._l(t.apps, function (e) {
-                  return i(
-                    "div",
-                    {
-                      key: e.id,
-                      staticClass: "app-wrapper",
-                      on: {
-                        click: function (i) {
-                          return t.toggleApp(e.id, !0);
-                        },
-                      },
-                    },
-                    [
-                      i(
-                        "div",
-                        { staticClass: "app-icon" },
-                        [
-                          i(
-                            "v-icon",
-                            { attrs: { size: "2vw", color: e.iconcolor } },
-                            [t._v(t._s(e.icon))]
-                          ),
-                        ],
-                        1
-                      ),
-                      i("span", { staticClass: "app-title" }, [
-                        t._v(t._s(e.title)),
-                      ]),
-                    ]
-                  );
-                }),
-                0
-              ),
-              i("div", { staticClass: "start-title" }, [t._v("Recommended")]),
-              i(
-                "div",
-                { staticClass: "start-recommended" },
-                t._l(t.recommendedApps, function (e) {
-                  return i(
-                    "div",
-                    {
-                      key: e.id,
-                      staticClass: "app-recommended",
-                      on: {
-                        click: function (i) {
-                          return t.toggleApp(e.id, !0);
-                        },
-                      },
-                    },
-                    [
-                      i(
-                        "v-icon",
-                        {
-                          staticStyle: { display: "inline" },
-                          attrs: { size: "2vw", color: e.iconcolor },
-                        },
-                        [t._v(t._s(e.icon))]
-                      ),
-                      i(
-                        "span",
-                        {
-                          staticClass: "app-title",
-                          staticStyle: {
-                            display: "inline",
-                            "white-space": "nowrap",
-                            "padding-left": "0.15vw",
-                          },
-                        },
-                        [t._v(t._s(e.title))]
-                      ),
-                    ],
-                    1
-                  );
-                }),
-                0
-              ),
-            ]),
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "v-container",
+        { staticStyle: { padding: "1vw", margin: "0" } },
+        [
+          i("div", { attrs: { id: "start-modern" } }, [
             i(
-              "v-bottom-navigation",
-              {
-                attrs: {
-                  fixed: "",
-                  height: "2vw",
-                  "background-color": t.themePrimaryColor,
-                },
-              },
+              "div",
+              { attrs: { id: "start-modern-search" } },
               [
-                i(
-                  "v-btn",
-                  { attrs: { height: "2vw", color: t.themePrimaryColor } },
-                  [
-                    i("v-icon", { attrs: { size: "1.25vw", color: "grey" } }, [
-                      t._v("mdi-account-circle-outline"),
-                    ]),
-                  ],
-                  1
-                ),
-                i("v-spacer"),
-                i(
-                  "v-btn",
-                  {
-                    attrs: { height: "2vw", color: t.themePrimaryColor },
-                    on: {
-                      click: function (e) {
-                        return t.toggleApp(23, !0);
-                      },
+                i("v-text-field", {
+                  attrs: {
+                    "hide-details": "",
+                    label: "Type here to search",
+                    "prepend-inner-icon": "mdi-magnify",
+                    light: "",
+                    height: "1.25vw",
+                    "single-line": "",
+                  },
+                  on: {
+                    click: function (t) {
+                      t.stopPropagation();
+                    },
+                    keyup: t.searchInternet,
+                    "click:prepend-inner": function (e) {
+                      return t.toggleAppUrl(
+                        2,
+                        "https://www.google.com/search?igu=1&q=" + t.search,
+                        !0
+                      );
                     },
                   },
-                  [
-                    i("v-icon", { attrs: { size: "1.25vw" } }, [
-                      t._v("mdi-cog-outline"),
-                    ]),
-                  ],
-                  1
-                ),
-                i(
-                  "v-btn",
-                  {
-                    attrs: { height: "2vw", color: t.themePrimaryColor },
-                    on: { click: t.shutdown },
+                  model: {
+                    value: t.search,
+                    callback: function (e) {
+                      t.search = e;
+                    },
+                    expression: "search",
                   },
-                  [
-                    i("v-icon", { attrs: { size: "1.25vw" } }, [
-                      t._v("mdi-power"),
-                    ]),
-                  ],
-                  1
-                ),
+                }),
               ],
               1
             ),
-          ],
-          1
-        );
-      },
+            i("div", { staticClass: "start-title" }, [t._v("All app")]),
+            i(
+              "div",
+              { staticClass: "start-wrapper" },
+              t._l(t.apps, function (e) {
+                return i(
+                  "div",
+                  {
+                    key: e.id,
+                    staticClass: "app-wrapper",
+                    on: {
+                      click: function (i) {
+                        return t.toggleApp(e.id, !0);
+                      },
+                    },
+                  },
+                  [
+                    i(
+                      "div",
+                      { staticClass: "app-icon" },
+                      [
+                        i(
+                          "v-icon",
+                          { attrs: { size: "2vw", color: e.iconcolor } },
+                          [t._v(t._s(e.icon))]
+                        ),
+                      ],
+                      1
+                    ),
+                    i("span", { staticClass: "app-title" }, [
+                      t._v(t._s(e.title)),
+                    ]),
+                  ]
+                );
+              }),
+              0
+            ),
+            i("div", { staticClass: "start-title" }, [t._v("Recommended")]),
+            i(
+              "div",
+              { staticClass: "start-recommended" },
+              t._l(t.recommendedApps, function (e) {
+                return i(
+                  "div",
+                  {
+                    key: e.id,
+                    staticClass: "app-recommended",
+                    on: {
+                      click: function (i) {
+                        return t.toggleApp(e.id, !0);
+                      },
+                    },
+                  },
+                  [
+                    i(
+                      "v-icon",
+                      {
+                        staticStyle: { display: "inline" },
+                        attrs: { size: "2vw", color: e.iconcolor },
+                      },
+                      [t._v(t._s(e.icon))]
+                    ),
+                    i(
+                      "span",
+                      {
+                        staticClass: "app-title",
+                        staticStyle: {
+                          display: "inline",
+                          "white-space": "nowrap",
+                          "padding-left": "0.15vw",
+                        },
+                      },
+                      [t._v(t._s(e.title))]
+                    ),
+                  ],
+                  1
+                );
+              }),
+              0
+            ),
+          ]),
+          i(
+            "v-bottom-navigation",
+            {
+              attrs: {
+                fixed: "",
+                height: "2vw",
+                "background-color": t.themePrimaryColor,
+              },
+            },
+            [
+              i(
+                "v-btn",
+                { attrs: { height: "2vw", color: t.themePrimaryColor } },
+                [
+                  i("v-icon", { attrs: { size: "1.25vw", color: "grey" } }, [
+                    t._v("mdi-account-circle-outline"),
+                  ]),
+                ],
+                1
+              ),
+              i("v-spacer"),
+              i(
+                "v-btn",
+                {
+                  attrs: { height: "2vw", color: t.themePrimaryColor },
+                  on: {
+                    click: function (e) {
+                      return t.toggleApp(23, !0);
+                    },
+                  },
+                },
+                [
+                  i("v-icon", { attrs: { size: "1.25vw" } }, [
+                    t._v("mdi-cog-outline"),
+                  ]),
+                ],
+                1
+              ),
+              i(
+                "v-btn",
+                {
+                  attrs: { height: "2vw", color: t.themePrimaryColor },
+                  on: { click: t.shutdown },
+                },
+                [
+                  i("v-icon", { attrs: { size: "1.25vw" } }, [
+                    t._v("mdi-power"),
+                  ]),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       it = [],
       nt = {
         name: "app",
@@ -3556,8 +3556,8 @@
             0 == this.rotateNews
               ? this.toggleAppUrl(17, "https://news.sky.com/world", !0)
               : -90 == this.rotateNews
-              ? this.toggleAppUrl(17, "https://lite.cnn.com/", !0)
-              : this.toggleAppUrl(17, "https://www.thesun.co.uk/news/", !0);
+                ? this.toggleAppUrl(17, "https://lite.cnn.com/", !0)
+                : this.toggleAppUrl(17, "https://www.thesun.co.uk/news/", !0);
           },
           toggleAppUrl: function (t, e, i) {
             this.$store.dispatch("toggleAppUrlAction", {
@@ -3631,320 +3631,320 @@
       VTextField: rt["a"],
     });
     var ut = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i("div", { ref: "calc", attrs: { id: "calculator" } }, [
-          i(
-            "div",
-            { staticClass: "calculator-logs" },
-            t._l(t.logs, function (e) {
-              return i("span", { key: e }, [t._v(t._s(e))]);
-            }),
-            0
-          ),
-          i("input", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: t.value,
-                expression: "value",
-              },
-            ],
-            staticClass: "calculator-input",
-            attrs: { type: "string" },
-            domProps: { value: t.value },
-            on: {
-              keyup: function (e) {
-                return !e.type.indexOf("key") &&
-                  t._k(e.keyCode, "enter", 13, e.key, "Enter")
-                  ? null
-                  : t.getResult();
-              },
-              input: function (e) {
-                e.target.composing || (t.value = e.target.value);
-              },
-            },
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i("div", { ref: "calc", attrs: { id: "calculator" } }, [
+        i(
+          "div",
+          { staticClass: "calculator-logs" },
+          t._l(t.logs, function (e) {
+            return i("span", { key: e }, [t._v(t._s(e))]);
           }),
-          i("div", { staticClass: "calculator-row" }, [
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn gray action",
-                  on: {
-                    click: function (e) {
-                      return t.clear();
-                    },
+          0
+        ),
+        i("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: t.value,
+              expression: "value",
+            },
+          ],
+          staticClass: "calculator-input",
+          attrs: { type: "string" },
+          domProps: { value: t.value },
+          on: {
+            keyup: function (e) {
+              return !e.type.indexOf("key") &&
+                t._k(e.keyCode, "enter", 13, e.key, "Enter")
+                ? null
+                : t.getResult();
+            },
+            input: function (e) {
+              e.target.composing || (t.value = e.target.value);
+            },
+          },
+        }),
+        i("div", { staticClass: "calculator-row" }, [
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn gray action",
+                on: {
+                  click: function (e) {
+                    return t.clear();
                   },
                 },
-                [t._v("C")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn gray action",
-                  on: {
-                    click: function (e) {
-                      return t.del();
-                    },
-                  },
-                },
-                [t._v("del")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn gray action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion("%");
-                    },
-                  },
-                },
-                [t._v("%")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn clcaccent action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion("/");
-                    },
-                  },
-                },
-                [t._v("/")]
-              ),
-            ]),
+              },
+              [t._v("C")]
+            ),
           ]),
-          i("div", { staticClass: "calculator-row" }, [
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(7);
-                    },
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn gray action",
+                on: {
+                  click: function (e) {
+                    return t.del();
                   },
                 },
-                [t._v("7")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(8);
-                    },
-                  },
-                },
-                [t._v("8")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(9);
-                    },
-                  },
-                },
-                [t._v("9")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn clcaccent action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion("*");
-                    },
-                  },
-                },
-                [t._v("*")]
-              ),
-            ]),
+              },
+              [t._v("del")]
+            ),
           ]),
-          i("div", { staticClass: "calculator-row" }, [
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(4);
-                    },
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn gray action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion("%");
                   },
                 },
-                [t._v("4")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(5);
-                    },
-                  },
-                },
-                [t._v("5")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(6);
-                    },
-                  },
-                },
-                [t._v("6")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn clcaccent action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion("-");
-                    },
-                  },
-                },
-                [t._v("-")]
-              ),
-            ]),
+              },
+              [t._v("%")]
+            ),
           ]),
-          i("div", { staticClass: "calculator-row" }, [
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(1);
-                    },
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn clcaccent action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion("/");
                   },
                 },
-                [t._v("1")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(2);
-                    },
-                  },
-                },
-                [t._v("2")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(3);
-                    },
-                  },
-                },
-                [t._v("3")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn clcaccent action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion("+");
-                    },
-                  },
-                },
-                [t._v("+")]
-              ),
-            ]),
+              },
+              [t._v("/")]
+            ),
           ]),
-          i("div", { staticClass: "calculator-row" }, [
-            i("div", { staticClass: "calculator-col wide" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(0);
-                    },
+        ]),
+        i("div", { staticClass: "calculator-row" }, [
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(7);
                   },
                 },
-                [t._v("0")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn action",
-                  on: {
-                    click: function (e) {
-                      return t.addExpresion(".");
-                    },
-                  },
-                },
-                [t._v(".")]
-              ),
-            ]),
-            i("div", { staticClass: "calculator-col" }, [
-              i(
-                "button",
-                {
-                  staticClass: "calculator-btn clcaccent action",
-                  on: {
-                    click: function (e) {
-                      return t.getResult();
-                    },
-                  },
-                },
-                [t._v("=")]
-              ),
-            ]),
+              },
+              [t._v("7")]
+            ),
           ]),
-        ]);
-      },
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(8);
+                  },
+                },
+              },
+              [t._v("8")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(9);
+                  },
+                },
+              },
+              [t._v("9")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn clcaccent action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion("*");
+                  },
+                },
+              },
+              [t._v("*")]
+            ),
+          ]),
+        ]),
+        i("div", { staticClass: "calculator-row" }, [
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(4);
+                  },
+                },
+              },
+              [t._v("4")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(5);
+                  },
+                },
+              },
+              [t._v("5")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(6);
+                  },
+                },
+              },
+              [t._v("6")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn clcaccent action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion("-");
+                  },
+                },
+              },
+              [t._v("-")]
+            ),
+          ]),
+        ]),
+        i("div", { staticClass: "calculator-row" }, [
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(1);
+                  },
+                },
+              },
+              [t._v("1")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(2);
+                  },
+                },
+              },
+              [t._v("2")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(3);
+                  },
+                },
+              },
+              [t._v("3")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn clcaccent action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion("+");
+                  },
+                },
+              },
+              [t._v("+")]
+            ),
+          ]),
+        ]),
+        i("div", { staticClass: "calculator-row" }, [
+          i("div", { staticClass: "calculator-col wide" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(0);
+                  },
+                },
+              },
+              [t._v("0")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn action",
+                on: {
+                  click: function (e) {
+                    return t.addExpresion(".");
+                  },
+                },
+              },
+              [t._v(".")]
+            ),
+          ]),
+          i("div", { staticClass: "calculator-col" }, [
+            i(
+              "button",
+              {
+                staticClass: "calculator-btn clcaccent action",
+                on: {
+                  click: function (e) {
+                    return t.getResult();
+                  },
+                },
+              },
+              [t._v("=")]
+            ),
+          ]),
+        ]),
+      ]);
+    },
       ht = [],
       dt = i("a97d"),
       pt = dt["a"],
@@ -4037,8 +4037,8 @@
             return t > 3 && t < 21
               ? "th"
               : ["th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"][
-                  t % 10
-                ];
+              t % 10
+              ];
           },
         },
       },
@@ -4049,96 +4049,96 @@
       xt = kt.exports;
     L()(kt, { VCalendar: bt["a"], VSheet: yt["a"] });
     var Ct = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          {
-            staticStyle: {
-              padding: "0",
-              margin: "0",
-              height: "100%",
-              "overflow-y": "scroll",
-            },
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        {
+          staticStyle: {
+            padding: "0",
+            margin: "0",
+            height: "100%",
+            "overflow-y": "scroll",
           },
-          [
-            i(
-              "v-row",
-              {
-                key: 1,
-                staticStyle: { width: "100%", height: "100%" },
-                attrs: { "no-gutters": "" },
-              },
-              [
-                i(
-                  "v-col",
-                  { key: 1, attrs: { cols: "3" } },
-                  [
-                    i(
-                      "v-list",
-                      {
-                        attrs: {
-                          light: "",
-                          dense: "",
-                          width: "100%",
-                          height: "100%",
-                        },
+        },
+        [
+          i(
+            "v-row",
+            {
+              key: 1,
+              staticStyle: { width: "100%", height: "100%" },
+              attrs: { "no-gutters": "" },
+            },
+            [
+              i(
+                "v-col",
+                { key: 1, attrs: { cols: "3" } },
+                [
+                  i(
+                    "v-list",
+                    {
+                      attrs: {
+                        light: "",
+                        dense: "",
+                        width: "100%",
+                        height: "100%",
                       },
-                      t._l(t.items, function (e) {
-                        return i(
-                          "v-list-item",
-                          {
-                            key: e.name,
-                            attrs: { link: "" },
-                            on: {
-                              click: function (i) {
-                                t.currentItem = e;
-                              },
+                    },
+                    t._l(t.items, function (e) {
+                      return i(
+                        "v-list-item",
+                        {
+                          key: e.name,
+                          attrs: { link: "" },
+                          on: {
+                            click: function (i) {
+                              t.currentItem = e;
                             },
                           },
-                          [
-                            i(
-                              "v-list-item-action",
-                              [
-                                i("v-icon", { attrs: { color: "#3886C4" } }, [
-                                  t._v(t._s(e.icon)),
-                                ]),
-                              ],
-                              1
-                            ),
-                            i(
-                              "v-list-item-content",
-                              [i("v-list-item-title", [t._v(t._s(e.name))])],
-                              1
-                            ),
-                          ],
-                          1
-                        );
-                      }),
-                      1
-                    ),
-                  ],
-                  1
-                ),
-                i(
-                  "v-col",
-                  { key: 2, attrs: { cols: "9" } },
-                  [
-                    i(t.currentItem.path, {
-                      tag: "v-content",
-                      staticStyle: { width: "99%", background: "#E1E7FA" },
+                        },
+                        [
+                          i(
+                            "v-list-item-action",
+                            [
+                              i("v-icon", { attrs: { color: "#3886C4" } }, [
+                                t._v(t._s(e.icon)),
+                              ]),
+                            ],
+                            1
+                          ),
+                          i(
+                            "v-list-item-content",
+                            [i("v-list-item-title", [t._v(t._s(e.name))])],
+                            1
+                          ),
+                        ],
+                        1
+                      );
                     }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-          ],
-          1
-        );
-      },
+                    1
+                  ),
+                ],
+                1
+              ),
+              i(
+                "v-col",
+                { key: 2, attrs: { cols: "9" } },
+                [
+                  i(t.currentItem.path, {
+                    tag: "v-content",
+                    staticStyle: { width: "99%", background: "#E1E7FA" },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       St = [],
       Ot = function () {
         var t = this,
@@ -4509,152 +4509,152 @@
       VRow: q["a"],
     });
     var Tt = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          { staticStyle: { padding: "10px" } },
-          [
-            i(
-              "v-row",
-              { key: 1 },
-              [
-                i(
-                  "v-col",
-                  { key: 1 },
-                  [
-                    i("v-autocomplete", {
-                      attrs: {
-                        disabled: t.isUpdating,
-                        items: t.wallpapers,
-                        filled: "",
-                        color: "blue-grey lighten-2",
-                        label: "Image url",
-                        "item-text": "src.original",
-                        "item-value": "src.original",
-                      },
-                      scopedSlots: t._u([
-                        {
-                          key: "item",
-                          fn: function (e) {
-                            return [
-                              "object" !== typeof e.item
-                                ? [
-                                    i("v-list-item-content", {
-                                      domProps: { textContent: t._s(e.item) },
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        { staticStyle: { padding: "10px" } },
+        [
+          i(
+            "v-row",
+            { key: 1 },
+            [
+              i(
+                "v-col",
+                { key: 1 },
+                [
+                  i("v-autocomplete", {
+                    attrs: {
+                      disabled: t.isUpdating,
+                      items: t.wallpapers,
+                      filled: "",
+                      color: "blue-grey lighten-2",
+                      label: "Image url",
+                      "item-text": "src.original",
+                      "item-value": "src.original",
+                    },
+                    scopedSlots: t._u([
+                      {
+                        key: "item",
+                        fn: function (e) {
+                          return [
+                            "object" !== typeof e.item
+                              ? [
+                                i("v-list-item-content", {
+                                  domProps: { textContent: t._s(e.item) },
+                                }),
+                              ]
+                              : [
+                                i("v-list-item-avatar", [
+                                  i("img", {
+                                    attrs: { src: e.item.src.tiny },
+                                  }),
+                                ]),
+                                i(
+                                  "v-list-item-content",
+                                  [
+                                    i("v-list-item-title", {
+                                      domProps: {
+                                        innerHTML: t._s(
+                                          "Photographer: " +
+                                          e.item.photographer
+                                        ),
+                                      },
                                     }),
-                                  ]
-                                : [
-                                    i("v-list-item-avatar", [
-                                      i("img", {
-                                        attrs: { src: e.item.src.tiny },
-                                      }),
-                                    ]),
-                                    i(
-                                      "v-list-item-content",
-                                      [
-                                        i("v-list-item-title", {
-                                          domProps: {
-                                            innerHTML: t._s(
-                                              "Photographer: " +
-                                                e.item.photographer
-                                            ),
-                                          },
-                                        }),
-                                      ],
-                                      1
-                                    ),
                                   ],
-                            ];
-                          },
+                                  1
+                                ),
+                              ],
+                          ];
                         },
-                      ]),
-                      model: {
-                        value: t.desktopUrl,
-                        callback: function (e) {
-                          t.desktopUrl = e;
-                        },
-                        expression: "desktopUrl",
                       },
-                    }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 2 },
-              [
-                i(
-                  "v-col",
-                  { key: 1 },
-                  [
-                    i("v-img", {
-                      ref: "imgPreview",
-                      attrs: { "max-height": "67vh", src: t.desktopUrl },
+                    ]),
+                    model: {
+                      value: t.desktopUrl,
+                      callback: function (e) {
+                        t.desktopUrl = e;
+                      },
+                      expression: "desktopUrl",
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 2 },
+            [
+              i(
+                "v-col",
+                { key: 1 },
+                [
+                  i("v-img", {
+                    ref: "imgPreview",
+                    attrs: { "max-height": "67vh", src: t.desktopUrl },
+                    on: {
+                      "update:src": function (e) {
+                        t.desktopUrl = e;
+                      },
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 3 },
+            [
+              i(
+                "v-col",
+                { key: 1, staticStyle: { "text-align": "right" } },
+                [
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
                       on: {
-                        "update:src": function (e) {
-                          t.desktopUrl = e;
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.setDefaultDesktopUrl.apply(null, arguments)
+                          );
                         },
                       },
-                    }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 3 },
-              [
-                i(
-                  "v-col",
-                  { key: 1, staticStyle: { "text-align": "right" } },
-                  [
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.setDefaultDesktopUrl.apply(null, arguments)
-                            );
-                          },
+                    },
+                    [t._v("Default")]
+                  ),
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
+                      on: {
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.changeDesktopUrl.apply(null, arguments)
+                          );
                         },
                       },
-                      [t._v("Default")]
-                    ),
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.changeDesktopUrl.apply(null, arguments)
-                            );
-                          },
-                        },
-                      },
-                      [t._v("Save")]
-                    ),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-          ],
-          1
-        );
-      },
+                    },
+                    [t._v("Save")]
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       Vt = [],
       _t = {
         data: function () {
@@ -4730,112 +4730,112 @@
       VRow: q["a"],
     });
     var Wt = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          { staticStyle: { padding: "10px" } },
-          [
-            i(
-              "v-row",
-              { key: 1 },
-              [
-                i(
-                  "v-col",
-                  { key: 1 },
-                  [
-                    i("v-select", {
-                      attrs: {
-                        items: t.items,
-                        "item-text": "name",
-                        "item-value": "id",
-                        label: "Theme",
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        { staticStyle: { padding: "10px" } },
+        [
+          i(
+            "v-row",
+            { key: 1 },
+            [
+              i(
+                "v-col",
+                { key: 1 },
+                [
+                  i("v-select", {
+                    attrs: {
+                      items: t.items,
+                      "item-text": "name",
+                      "item-value": "id",
+                      label: "Theme",
+                    },
+                    model: {
+                      value: t.currentThemeIndex,
+                      callback: function (e) {
+                        t.currentThemeIndex = e;
                       },
-                      model: {
-                        value: t.currentThemeIndex,
-                        callback: function (e) {
-                          t.currentThemeIndex = e;
-                        },
-                        expression: "currentThemeIndex",
-                      },
-                    }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 2, staticStyle: { "margin-top": "0" } },
-              [
-                i(
-                  "v-col",
-                  { key: 1 },
-                  [
-                    i("v-img", {
-                      ref: "imgPreview",
-                      attrs: {
-                        "max-height": "67vh",
-                        contain: "",
-                        src: t.currentThemePreview,
-                      },
-                    }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 3 },
-              [
-                i(
-                  "v-col",
-                  { key: 1, staticStyle: { "text-align": "right" } },
-                  [
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.setDefaultTheme.apply(null, arguments)
-                            );
-                          },
-                        },
-                      },
-                      [t._v("Default")]
-                    ),
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.changeTheme.apply(null, arguments)
-                            );
-                          },
+                      expression: "currentThemeIndex",
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 2, staticStyle: { "margin-top": "0" } },
+            [
+              i(
+                "v-col",
+                { key: 1 },
+                [
+                  i("v-img", {
+                    ref: "imgPreview",
+                    attrs: {
+                      "max-height": "67vh",
+                      contain: "",
+                      src: t.currentThemePreview,
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 3 },
+            [
+              i(
+                "v-col",
+                { key: 1, staticStyle: { "text-align": "right" } },
+                [
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
+                      on: {
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.setDefaultTheme.apply(null, arguments)
+                          );
                         },
                       },
-                      [t._v("Save")]
-                    ),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-          ],
-          1
-        );
-      },
+                    },
+                    [t._v("Default")]
+                  ),
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
+                      on: {
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.changeTheme.apply(null, arguments)
+                          );
+                        },
+                      },
+                    },
+                    [t._v("Save")]
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       Qt = [],
       Gt = i("712c"),
       Xt = i.n(Gt),
@@ -4898,124 +4898,124 @@
       VSelect: qt["a"],
     });
     var te = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          { staticStyle: { padding: "10px" } },
-          [
-            i(
-              "v-row",
-              { key: 1 },
-              [
-                i(
-                  "v-col",
-                  { key: 1, staticStyle: { "text-align": "center" } },
-                  [
-                    i(
-                      "div",
-                      {
-                        style: {
-                          background: "" + t.themePrimaryColor,
-                          width: "80%",
-                          "margin-left": "10%",
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        { staticStyle: { padding: "10px" } },
+        [
+          i(
+            "v-row",
+            { key: 1 },
+            [
+              i(
+                "v-col",
+                { key: 1, staticStyle: { "text-align": "center" } },
+                [
+                  i(
+                    "div",
+                    {
+                      style: {
+                        background: "" + t.themePrimaryColor,
+                        width: "80%",
+                        "margin-left": "10%",
+                      },
+                    },
+                    [
+                      i("v-img", {
+                        ref: "imgPreview",
+                        attrs: {
+                          "max-height": "67vh",
+                          "aspect-ratio": "1.7778",
+                          contain: "",
+                          src: t.themePreview,
+                        },
+                      }),
+                    ],
+                    1
+                  ),
+                ]
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 2 },
+            [
+              i(
+                "v-col",
+                { key: 1 },
+                [
+                  i("v-color-picker", {
+                    attrs: {
+                      "show-swatches": "",
+                      "hide-canvas": "",
+                      "hide-inputs": "",
+                    },
+                    model: {
+                      value: t.themePrimaryColor,
+                      callback: function (e) {
+                        t.themePrimaryColor = e;
+                      },
+                      expression: "themePrimaryColor",
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          i(
+            "v-row",
+            { key: 3 },
+            [
+              i(
+                "v-col",
+                { key: 1, staticStyle: { "text-align": "right" } },
+                [
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
+                      on: {
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.setDefaultDesktopColor.apply(null, arguments)
+                          );
                         },
                       },
-                      [
-                        i("v-img", {
-                          ref: "imgPreview",
-                          attrs: {
-                            "max-height": "67vh",
-                            "aspect-ratio": "1.7778",
-                            contain: "",
-                            src: t.themePreview,
-                          },
-                        }),
-                      ],
-                      1
-                    ),
-                  ]
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 2 },
-              [
-                i(
-                  "v-col",
-                  { key: 1 },
-                  [
-                    i("v-color-picker", {
-                      attrs: {
-                        "show-swatches": "",
-                        "hide-canvas": "",
-                        "hide-inputs": "",
-                      },
-                      model: {
-                        value: t.themePrimaryColor,
-                        callback: function (e) {
-                          t.themePrimaryColor = e;
-                        },
-                        expression: "themePrimaryColor",
-                      },
-                    }),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-            i(
-              "v-row",
-              { key: 3 },
-              [
-                i(
-                  "v-col",
-                  { key: 1, staticStyle: { "text-align": "right" } },
-                  [
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.setDefaultDesktopColor.apply(null, arguments)
-                            );
-                          },
+                    },
+                    [t._v("Default")]
+                  ),
+                  i(
+                    "v-btn",
+                    {
+                      staticClass: "mr-4",
+                      on: {
+                        click: function (e) {
+                          return (
+                            e.preventDefault(),
+                            t.changeThemePrimaryColor.apply(null, arguments)
+                          );
                         },
                       },
-                      [t._v("Default")]
-                    ),
-                    i(
-                      "v-btn",
-                      {
-                        staticClass: "mr-4",
-                        on: {
-                          click: function (e) {
-                            return (
-                              e.preventDefault(),
-                              t.changeThemePrimaryColor.apply(null, arguments)
-                            );
-                          },
-                        },
-                      },
-                      [t._v("Save")]
-                    ),
-                  ],
-                  1
-                ),
-              ],
-              1
-            ),
-          ],
-          1
-        );
-      },
+                    },
+                    [t._v("Save")]
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       ee = [],
       ie = i("b7f4"),
       ne = i.n(ie),
@@ -5066,47 +5066,47 @@
       VRow: q["a"],
     });
     var he = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i("div", { staticStyle: { padding: "10px" } }, [
-          i(
-            "div",
-            { staticClass: "start-wrapper" },
-            t._l(t.apps, function (e) {
-              return i("div", { key: e.id, staticClass: "app-wrapper" }, [
-                i("div", { staticClass: "app-icon" }, [
-                  i("img", { staticClass: "icn", attrs: { src: e.icon } }),
-                ]),
-                i("span", { staticClass: "app-title" }, [t._v(t._s(e.name))]),
-                i(
-                  "span",
-                  { staticClass: "app-install" },
-                  [
-                    i(
-                      "v-btn",
-                      {
-                        attrs: {
-                          small: "",
-                          disabled: t.checkInstalledApps(e.url),
-                        },
-                        on: {
-                          click: function (i) {
-                            return t.install(e.id);
-                          },
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i("div", { staticStyle: { padding: "10px" } }, [
+        i(
+          "div",
+          { staticClass: "start-wrapper" },
+          t._l(t.apps, function (e) {
+            return i("div", { key: e.id, staticClass: "app-wrapper" }, [
+              i("div", { staticClass: "app-icon" }, [
+                i("img", { staticClass: "icn", attrs: { src: e.icon } }),
+              ]),
+              i("span", { staticClass: "app-title" }, [t._v(t._s(e.name))]),
+              i(
+                "span",
+                { staticClass: "app-install" },
+                [
+                  i(
+                    "v-btn",
+                    {
+                      attrs: {
+                        small: "",
+                        disabled: t.checkInstalledApps(e.url),
+                      },
+                      on: {
+                        click: function (i) {
+                          return t.install(e.id);
                         },
                       },
-                      [t._v("Install")]
-                    ),
-                  ],
-                  1
-                ),
-              ]);
-            }),
-            0
-          ),
-        ]);
-      },
+                    },
+                    [t._v("Install")]
+                  ),
+                ],
+                1
+              ),
+            ]);
+          }),
+          0
+        ),
+      ]);
+    },
       de = [],
       pe = (i("96cf"), i("1da1")),
       fe = {
@@ -5249,8 +5249,8 @@
             ],
           };
         },
-        created: function () {},
-        mounted: function () {},
+        created: function () { },
+        mounted: function () { },
         methods: {
           install: (function () {
             var t = Object(pe["a"])(
@@ -5305,112 +5305,112 @@
       ge = ve.exports;
     L()(ve, { VBtn: at["a"] });
     var Ae = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "v-container",
-          { attrs: { fluid: "" } },
-          t._l(t.installedApps, function (e, n) {
-            return i(
-              "v-row",
-              {
-                key: e.id,
-                class: n % 2 == 0 ? "grey lighten-5" : "grey darken-2",
-                attrs: { justify: "space-between", "no-gutters": "" },
-              },
-              [
-                i(
-                  "v-col",
-                  { key: "1" },
-                  [
-                    i(
-                      "v-card",
-                      {
-                        class:
-                          n % 2 == 0
-                            ? "pa-2 grey--text text--darken-4"
-                            : "pa-2 white--text",
-                        attrs: {
-                          color: "rgb(255, 0, 0, 0)",
-                          outlined: "",
-                          tile: "",
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "v-container",
+        { attrs: { fluid: "" } },
+        t._l(t.installedApps, function (e, n) {
+          return i(
+            "v-row",
+            {
+              key: e.id,
+              class: n % 2 == 0 ? "grey lighten-5" : "grey darken-2",
+              attrs: { justify: "space-between", "no-gutters": "" },
+            },
+            [
+              i(
+                "v-col",
+                { key: "1" },
+                [
+                  i(
+                    "v-card",
+                    {
+                      class:
+                        n % 2 == 0
+                          ? "pa-2 grey--text text--darken-4"
+                          : "pa-2 white--text",
+                      attrs: {
+                        color: "rgb(255, 0, 0, 0)",
+                        outlined: "",
+                        tile: "",
+                      },
+                    },
+                    [
+                      t._v(
+                        "\n                " + t._s(e.name) + "\n            "
+                      ),
+                    ]
+                  ),
+                ],
+                1
+              ),
+              i(
+                "v-col",
+                { key: "2" },
+                [
+                  i(
+                    "v-card",
+                    {
+                      class:
+                        n % 2 == 0
+                          ? "pa-2 grey--text text--darken-4"
+                          : "pa-2 white--text",
+                      attrs: {
+                        color: "rgb(255, 0, 0, 0)",
+                        outlined: "",
+                        tile: "",
+                      },
+                    },
+                    [
+                      t._v(
+                        "\n                " + t._s(e.url) + "\n            "
+                      ),
+                    ]
+                  ),
+                ],
+                1
+              ),
+              i(
+                "v-col",
+                { key: "3", attrs: { md: "1" } },
+                [
+                  i(
+                    "v-btn",
+                    {
+                      attrs: { fab: "", text: "", small: "" },
+                      on: {
+                        click: function (i) {
+                          return t.deleteInstalledApp(e);
                         },
                       },
-                      [
-                        t._v(
-                          "\n                " + t._s(e.name) + "\n            "
-                        ),
-                      ]
-                    ),
-                  ],
-                  1
-                ),
-                i(
-                  "v-col",
-                  { key: "2" },
-                  [
-                    i(
-                      "v-card",
-                      {
-                        class:
-                          n % 2 == 0
-                            ? "pa-2 grey--text text--darken-4"
-                            : "pa-2 white--text",
-                        attrs: {
-                          color: "rgb(255, 0, 0, 0)",
-                          outlined: "",
-                          tile: "",
+                    },
+                    [
+                      i(
+                        "v-icon",
+                        {
+                          class:
+                            n % 2 == 0
+                              ? "grey--text text--darken-4"
+                              : "white--text",
+                          attrs: { small: "" },
                         },
-                      },
-                      [
-                        t._v(
-                          "\n                " + t._s(e.url) + "\n            "
-                        ),
-                      ]
-                    ),
-                  ],
-                  1
-                ),
-                i(
-                  "v-col",
-                  { key: "3", attrs: { md: "1" } },
-                  [
-                    i(
-                      "v-btn",
-                      {
-                        attrs: { fab: "", text: "", small: "" },
-                        on: {
-                          click: function (i) {
-                            return t.deleteInstalledApp(e);
-                          },
-                        },
-                      },
-                      [
-                        i(
-                          "v-icon",
-                          {
-                            class:
-                              n % 2 == 0
-                                ? "grey--text text--darken-4"
-                                : "white--text",
-                            attrs: { small: "" },
-                          },
-                          [t._v("mdi-delete-forever")]
-                        ),
-                      ],
-                      1
-                    ),
-                  ],
-                  1
-                ),
-              ],
-              1
-            );
-          }),
-          1
-        );
-      },
+                        [t._v("mdi-delete-forever")]
+                      ),
+                    ],
+                    1
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          );
+        }),
+        1
+      );
+    },
       we = [],
       be = {
         data: function () {
@@ -5514,26 +5514,26 @@
       VRow: q["a"],
     });
     var De = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i("iframe", {
-          ref: "ifMain",
-          staticStyle: { width: "100%", height: "100%" },
-          attrs: {
-            id: "ifMain",
-            srcdoc: t.content,
-            src: "",
-            sandbox:
-              "allow-forms allow-modals allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation",
-          },
-          on: { onload: t.oniframeload, onerror: t.oniframeerror },
-        });
-      },
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i("iframe", {
+        ref: "ifMain",
+        staticStyle: { width: "100%", height: "100%" },
+        attrs: {
+          id: "ifMain",
+          srcdoc: t.content,
+          src: "",
+          sandbox:
+            "allow-forms allow-modals allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation",
+        },
+        on: { onload: t.oniframeload, onerror: t.oniframeerror },
+      });
+    },
       Pe = [],
       Te =
         (i("a481"),
-        i("f559"),
+          i("f559"),
         {
           name: "iframe-bypass",
           props: { url: String },
@@ -5575,7 +5575,7 @@
               return t
                 ? t.startsWith("http")
                   ? ((this.content =
-                      '<html>\n                        <head>\n                            <style>\n                            .loader {\n                                position: absolute;\n                                top: calc(50% - 25px);\n                                left: calc(50% - 25px);\n                                width: 50px;\n                                height: 50px;\n                                background-color: #333;\n                                border-radius: 50%;\n                                animation: loader 1s infinite ease-in-out;\n                            }\n                            @keyframes loader {\n                                0% {\n                                transform: scale(0);\n                                }\n                                100% {\n                                transform: scale(1);\n                                opacity: 0;\n                                }\n                            }\n                            </style>\n                        </head>\n                        <body>\n                            <div class="loader"></div>\n                        </body>\n                        </html>'),
+                    '<html>\n                        <head>\n                            <style>\n                            .loader {\n                                position: absolute;\n                                top: calc(50% - 25px);\n                                left: calc(50% - 25px);\n                                width: 50px;\n                                height: 50px;\n                                background-color: #333;\n                                border-radius: 50%;\n                                animation: loader 1s infinite ease-in-out;\n                            }\n                            @keyframes loader {\n                                0% {\n                                transform: scale(0);\n                                }\n                                100% {\n                                transform: scale(1);\n                                opacity: 0;\n                                }\n                            }\n                            </style>\n                        </head>\n                        <body>\n                            <div class="loader"></div>\n                        </body>\n                        </html>'),
                     void this.fetchProxy(t, e, 0)
                       .then(function (t) {
                         return t.text();
@@ -5603,8 +5603,8 @@
                               "IFrameBypass - load: iframe was loaded"
                             ))
                           : console.log(
-                              "IFrameBypass - load: iframe data is empty"
-                            );
+                            "IFrameBypass - load: iframe data is empty"
+                          );
                       })
                       .catch(function (t) {
                         return console.error(
@@ -5613,10 +5613,10 @@
                         );
                       }))
                   : (console.log(
-                      "IFrameBypass - load: src " +
-                        this.url +
-                        " does not start with http(s)://"
-                    ),
+                    "IFrameBypass - load: src " +
+                    this.url +
+                    " does not start with http(s)://"
+                  ),
                     void (this.content =
                       "<html>\n                        <head></head>\n                        <body>\n                            <div>This url doesn't support GravityOS installing.</div>\n                        </body>\n                        </html>"))
                 : (console.log("IFrameBypass src is empty"),
@@ -5649,12 +5649,12 @@
               (this.content =
                 "<html>\n                        <head></head>\n                        <body>\n                        </body>\n                        </html>");
           },
-          mounted: function () {},
+          mounted: function () { },
           watch: {
             url: function (t) {
               t &&
                 (console.log("IFrameBypass - watch: " + t),
-                this.load(t, { mode: "cors" }));
+                  this.load(t, { mode: "cors" }));
             },
           },
         }),
@@ -5710,74 +5710,74 @@
                       [
                         t.icon
                           ? i(
-                              "v-icon",
-                              {
-                                staticClass: "window_icon",
-                                attrs: { color: t.iconcolor },
-                              },
-                              [t._v(t._s(t.icon))]
-                            )
+                            "v-icon",
+                            {
+                              staticClass: "window_icon",
+                              attrs: { color: t.iconcolor },
+                            },
+                            [t._v(t._s(t.icon))]
+                          )
                           : t._e(),
                         t.$slots.title
                           ? [t._t("title")]
                           : [
-                              t._v(
-                                "\n                    " +
-                                  t._s(t.title) +
-                                  "\n                "
-                              ),
-                            ],
+                            t._v(
+                              "\n                    " +
+                              t._s(t.title) +
+                              "\n                "
+                            ),
+                          ],
                       ],
                       2
                     ),
                     t.minimizeButton
                       ? [
-                          i(
-                            "my-button",
-                            {
-                              staticClass: "bar-button",
-                              on: { click: t.minimizeButtonClick },
-                            },
-                            [t._v("⚊")]
-                          ),
-                        ]
+                        i(
+                          "my-button",
+                          {
+                            staticClass: "bar-button",
+                            on: { click: t.minimizeButtonClick },
+                          },
+                          [t._v("⚊")]
+                        ),
+                      ]
                       : t._e(),
                     t.maximizeButton
                       ? [
-                          t.isMaximized
-                            ? [
-                                i(
-                                  "my-button",
-                                  {
-                                    staticClass: "bar-button",
-                                    on: { click: t.restoreButtonClick },
-                                  },
-                                  [t._v("❐")]
-                                ),
-                              ]
-                            : [
-                                i(
-                                  "my-button",
-                                  {
-                                    staticClass: "bar-button",
-                                    on: { click: t.maximizeButtonClick },
-                                  },
-                                  [t._v("☐")]
-                                ),
-                              ],
-                        ]
+                        t.isMaximized
+                          ? [
+                            i(
+                              "my-button",
+                              {
+                                staticClass: "bar-button",
+                                on: { click: t.restoreButtonClick },
+                              },
+                              [t._v("❐")]
+                            ),
+                          ]
+                          : [
+                            i(
+                              "my-button",
+                              {
+                                staticClass: "bar-button",
+                                on: { click: t.maximizeButtonClick },
+                              },
+                              [t._v("☐")]
+                            ),
+                          ],
+                      ]
                       : t._e(),
                     t.closeButton
                       ? [
-                          i(
-                            "my-button",
-                            {
-                              staticClass: "bar-button",
-                              on: { click: t.closeButtonClick },
-                            },
-                            [t._v("✕")]
-                          ),
-                        ]
+                        i(
+                          "my-button",
+                          {
+                            staticClass: "bar-button",
+                            on: { click: t.closeButtonClick },
+                          },
+                          [t._v("✕")]
+                        ),
+                      ]
                       : t._e(),
                   ],
                   2
@@ -5828,138 +5828,138 @@
       return window.TouchEvent && t instanceof TouchEvent;
     }
     var qe = (function () {
-        function t(e) {
-          Object(Le["a"])(this, t), (this.e = e);
-        }
-        return (
-          Object(He["a"])(
-            t,
-            [
-              {
-                key: "stopPropagation",
-                value: function () {
-                  this.e.stopPropagation();
-                },
+      function t(e) {
+        Object(Le["a"])(this, t), (this.e = e);
+      }
+      return (
+        Object(He["a"])(
+          t,
+          [
+            {
+              key: "stopPropagation",
+              value: function () {
+                this.e.stopPropagation();
               },
-              {
-                key: "preventDefault",
-                value: function () {
-                  this.e.preventDefault();
-                },
+            },
+            {
+              key: "preventDefault",
+              value: function () {
+                this.e.preventDefault();
               },
-              {
-                key: "clientX",
-                get: function () {
-                  return Ke(this.e)
-                    ? ("touchend" === this.e.type
-                        ? this.e.changedTouches
-                        : this.e.touches
-                      ).item(0).clientX
-                    : this.e.clientX;
-                },
+            },
+            {
+              key: "clientX",
+              get: function () {
+                return Ke(this.e)
+                  ? ("touchend" === this.e.type
+                    ? this.e.changedTouches
+                    : this.e.touches
+                  ).item(0).clientX
+                  : this.e.clientX;
               },
-              {
-                key: "clientY",
-                get: function () {
-                  return Ke(this.e)
-                    ? ("touchend" === this.e.type
-                        ? this.e.changedTouches
-                        : this.e.touches
-                      ).item(0).clientY
-                    : this.e.clientY;
-                },
+            },
+            {
+              key: "clientY",
+              get: function () {
+                return Ke(this.e)
+                  ? ("touchend" === this.e.type
+                    ? this.e.changedTouches
+                    : this.e.touches
+                  ).item(0).clientY
+                  : this.e.clientY;
               },
-              {
-                key: "clientCoord",
-                get: function () {
-                  return new Ze(this.clientX, this.clientY);
-                },
+            },
+            {
+              key: "clientCoord",
+              get: function () {
+                return new Ze(this.clientX, this.clientY);
               },
-              {
-                key: "originalEvent",
-                value: function (t) {
-                  var e = t.mouse,
-                    i = t.touch;
-                  Ke(this.e) ? i && i(this.e) : e && e(this.e);
-                },
+            },
+            {
+              key: "originalEvent",
+              value: function (t) {
+                var e = t.mouse,
+                  i = t.touch;
+                Ke(this.e) ? i && i(this.e) : e && e(this.e);
               },
-            ],
-            [
-              {
-                key: "bindDown",
-                value: function (e, i, n) {
-                  var o =
-                      arguments.length > 3 &&
-                      void 0 !== arguments[3] &&
-                      arguments[3],
-                    s = function (e) {
-                      i(new t(e));
-                    },
-                    a = function (e) {
-                      1 === e.touches.length && i(new t(e)),
-                        e.touches.length > 1 && n && n(new t(e));
-                    };
-                  return (
-                    e.addEventListener("mousedown", s, o),
-                    e.addEventListener("touchstart", a, o),
-                    function () {
-                      e.removeEventListener("mousedown", s, o),
-                        e.removeEventListener("touchstart", a, o);
-                    }
-                  );
-                },
+            },
+          ],
+          [
+            {
+              key: "bindDown",
+              value: function (e, i, n) {
+                var o =
+                  arguments.length > 3 &&
+                  void 0 !== arguments[3] &&
+                  arguments[3],
+                  s = function (e) {
+                    i(new t(e));
+                  },
+                  a = function (e) {
+                    1 === e.touches.length && i(new t(e)),
+                      e.touches.length > 1 && n && n(new t(e));
+                  };
+                return (
+                  e.addEventListener("mousedown", s, o),
+                  e.addEventListener("touchstart", a, o),
+                  function () {
+                    e.removeEventListener("mousedown", s, o),
+                      e.removeEventListener("touchstart", a, o);
+                  }
+                );
               },
-              {
-                key: "bindMove",
-                value: function (e, i) {
-                  var n =
-                      arguments.length > 2 &&
-                      void 0 !== arguments[2] &&
-                      arguments[2],
-                    o = function (e) {
-                      i(new t(e));
-                    },
-                    s = function (e) {
-                      1 === e.touches.length && i(new t(e));
-                    };
-                  return (
-                    e.addEventListener("mousemove", o, n),
-                    e.addEventListener("touchmove", s, n),
-                    function () {
-                      e.removeEventListener("mousemove", o, n),
-                        e.removeEventListener("touchmove", s, n);
-                    }
-                  );
-                },
+            },
+            {
+              key: "bindMove",
+              value: function (e, i) {
+                var n =
+                  arguments.length > 2 &&
+                  void 0 !== arguments[2] &&
+                  arguments[2],
+                  o = function (e) {
+                    i(new t(e));
+                  },
+                  s = function (e) {
+                    1 === e.touches.length && i(new t(e));
+                  };
+                return (
+                  e.addEventListener("mousemove", o, n),
+                  e.addEventListener("touchmove", s, n),
+                  function () {
+                    e.removeEventListener("mousemove", o, n),
+                      e.removeEventListener("touchmove", s, n);
+                  }
+                );
               },
-              {
-                key: "bindUp",
-                value: function (e, i) {
-                  var n =
-                      arguments.length > 2 &&
-                      void 0 !== arguments[2] &&
-                      arguments[2],
-                    o = function (e) {
-                      i(new t(e));
-                    },
-                    s = function (e) {
-                      0 === e.touches.length && i(new t(e));
-                    };
-                  return (
-                    e.addEventListener("mouseup", o, n),
-                    e.addEventListener("touchend", s, n),
-                    function () {
-                      e.removeEventListener("mouseup", o, n),
-                        e.removeEventListener("touchend", s, n);
-                    }
-                  );
-                },
+            },
+            {
+              key: "bindUp",
+              value: function (e, i) {
+                var n =
+                  arguments.length > 2 &&
+                  void 0 !== arguments[2] &&
+                  arguments[2],
+                  o = function (e) {
+                    i(new t(e));
+                  },
+                  s = function (e) {
+                    0 === e.touches.length && i(new t(e));
+                  };
+                return (
+                  e.addEventListener("mouseup", o, n),
+                  e.addEventListener("touchend", s, n),
+                  function () {
+                    e.removeEventListener("mouseup", o, n),
+                      e.removeEventListener("touchend", s, n);
+                  }
+                );
               },
-            ]
-          ),
-          t
-        );
-      })(),
+            },
+          ]
+        ),
+        t
+      );
+    })(),
       Ze = (function () {
         function t(e, i) {
           Object(Le["a"])(this, t), (this.x = e), (this.y = i);
@@ -6053,7 +6053,7 @@
       try {
         return (
           Boolean.prototype.valueOf.call(
-            Reflect.construct(Boolean, [], function () {})
+            Reflect.construct(Boolean, [], function () { })
           ),
           !0
         );
@@ -6062,41 +6062,41 @@
       }
     }
     var ii = (function () {
-        function t(e, i) {
-          var n = this;
-          Object(Le["a"])(this, t),
-            (this.container = e),
-            (this.options = i),
-            (this.handles = ni.map(function (t) {
-              return new t(e, n);
-            }));
-          var o = Ye(e),
-            s = o.width,
-            a = o.height,
-            r = i.maxWidth || window.innerWidth,
-            c = i.maxHeight || window.innerHeight,
-            l = !1;
-          (s < i.minWidth || s > r) &&
-            ((e.style.width = "".concat(si(s, i.minWidth, r), "px")), (l = !0)),
-            (a < i.minHeight || a > c) &&
-              ((e.style.height = "".concat(si(a, i.minHeight, c), "px")),
-              (l = !0)),
-            l && i.onResize && i.onResize();
-        }
-        return (
-          Object(He["a"])(t, [
-            {
-              key: "teardown",
-              value: function () {
-                this.handles.forEach(function (t) {
-                  return t.teardown();
-                });
-              },
+      function t(e, i) {
+        var n = this;
+        Object(Le["a"])(this, t),
+          (this.container = e),
+          (this.options = i),
+          (this.handles = ni.map(function (t) {
+            return new t(e, n);
+          }));
+        var o = Ye(e),
+          s = o.width,
+          a = o.height,
+          r = i.maxWidth || window.innerWidth,
+          c = i.maxHeight || window.innerHeight,
+          l = !1;
+        (s < i.minWidth || s > r) &&
+          ((e.style.width = "".concat(si(s, i.minWidth, r), "px")), (l = !0)),
+          (a < i.minHeight || a > c) &&
+          ((e.style.height = "".concat(si(a, i.minHeight, c), "px")),
+            (l = !0)),
+          l && i.onResize && i.onResize();
+      }
+      return (
+        Object(He["a"])(t, [
+          {
+            key: "teardown",
+            value: function () {
+              this.handles.forEach(function (t) {
+                return t.teardown();
+              });
             },
-          ]),
-          t
-        );
-      })(),
+          },
+        ]),
+        t
+      );
+    })(),
       ni = [],
       oi = (function () {
         function t(e, i) {
@@ -6125,7 +6125,7 @@
                 (n.height0 = a),
                 n.calcSafeBoundaries(),
                 n.helper.options.onResizeStart &&
-                  n.helper.options.onResizeStart(),
+                n.helper.options.onResizeStart(),
                 (n.unbindMove = qe.bindMove(document, n.mousemove)),
                 (n.unbindUp = qe.bindUp(document, n.mouseup));
             }),
@@ -6192,42 +6192,42 @@
                   r = this.helper.options;
                 n < this.minLeft
                   ? ((this.container.style.width = "".concat(
-                      e + n - this.minLeft,
-                      "px"
-                    )),
+                    e + n - this.minLeft,
+                    "px"
+                  )),
                     (this.container.style.left = "".concat(this.minLeft, "px")))
                   : n > this.maxLeft
-                  ? ((this.container.style.width = "".concat(r.minWidth, "px")),
-                    (this.container.style.left = "".concat(this.maxLeft, "px")))
-                  : s < this.minRight
-                  ? (this.container.style.width = "".concat(r.minWidth, "px"))
-                  : s > this.maxRight &&
-                    (this.container.style.width = "".concat(
-                      this.maxRight - n,
-                      "px"
-                    )),
+                    ? ((this.container.style.width = "".concat(r.minWidth, "px")),
+                      (this.container.style.left = "".concat(this.maxLeft, "px")))
+                    : s < this.minRight
+                      ? (this.container.style.width = "".concat(r.minWidth, "px"))
+                      : s > this.maxRight &&
+                      (this.container.style.width = "".concat(
+                        this.maxRight - n,
+                        "px"
+                      )),
                   o < this.minTop
                     ? ((this.container.style.height = "".concat(
-                        i + o - this.minTop,
-                        "px"
-                      )),
+                      i + o - this.minTop,
+                      "px"
+                    )),
                       (this.container.style.top = "".concat(this.minTop, "px")))
                     : o > this.maxTop
-                    ? ((this.container.style.height = "".concat(
+                      ? ((this.container.style.height = "".concat(
                         r.minHeight,
                         "px"
                       )),
-                      (this.container.style.top = "".concat(this.maxTop, "px")))
-                    : a < this.minBottom
-                    ? (this.container.style.height = "".concat(
-                        r.minHeight,
-                        "px"
-                      ))
-                    : a > this.maxBottom &&
-                      (this.container.style.height = "".concat(
-                        this.maxBottom - o,
-                        "px"
-                      ));
+                        (this.container.style.top = "".concat(this.maxTop, "px")))
+                      : a < this.minBottom
+                        ? (this.container.style.height = "".concat(
+                          r.minHeight,
+                          "px"
+                        ))
+                        : a > this.maxBottom &&
+                        (this.container.style.height = "".concat(
+                          this.maxBottom - o,
+                          "px"
+                        ));
               },
             },
             {
@@ -6552,20 +6552,20 @@
       };
     }
     var ci = ri({
-        window: {
-          color: "#fff",
-          boxShadow: "0 0 6pt rgba(255, 255, 255, 0.75)",
-          backgroundColor: "rgba(31, 31, 31, 0.9)",
-        },
-        titlebar: { backgroundColor: "rgba(63, 63, 63, 0.9)" },
-        content: {},
-        button: { color: "white" },
-        buttonHover: { backgroundColor: "rgba(255, 255, 255, 0.25)" },
-        buttonActive: {
-          color: "black",
-          backgroundColor: "rgba(255, 255, 255, 0.5)",
-        },
-      }),
+      window: {
+        color: "#fff",
+        boxShadow: "0 0 6pt rgba(255, 255, 255, 0.75)",
+        backgroundColor: "rgba(31, 31, 31, 0.9)",
+      },
+      titlebar: { backgroundColor: "rgba(63, 63, 63, 0.9)" },
+      content: {},
+      button: { color: "white" },
+      buttonHover: { backgroundColor: "rgba(255, 255, 255, 0.25)" },
+      buttonActive: {
+        color: "black",
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+      },
+    }),
       li = ri({
         window: {
           color: "#000",
@@ -6606,7 +6606,7 @@
         ) {
           i && (t = i);
           var n = 0,
-            o = function () {};
+            o = function () { };
           return {
             s: o,
             n: function () {
@@ -6655,8 +6655,8 @@
             ? Array.from(t)
             : "Arguments" === i ||
               /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)
-            ? fi(t, e)
-            : void 0
+              ? fi(t, e)
+              : void 0
         );
       }
     }
@@ -6666,57 +6666,57 @@
       return n;
     }
     var mi = (function () {
-        function t(e, i) {
-          var n = this;
-          Object(Le["a"])(this, t),
-            (this._group = e),
-            (this.onChange = i),
-            this.a(function (t) {
-              return t.push(n);
-            });
-        }
-        return (
-          Object(He["a"])(t, [
-            {
-              key: "group",
-              get: function () {
-                return this._group;
-              },
-              set: function (t) {
-                this._group = t;
-                var e = Ai(this._group),
-                  i = Ai(t);
-                e.splice(e.indexOf(this), 1), i.push(this), bi();
-              },
+      function t(e, i) {
+        var n = this;
+        Object(Le["a"])(this, t),
+          (this._group = e),
+          (this.onChange = i),
+          this.a(function (t) {
+            return t.push(n);
+          });
+      }
+      return (
+        Object(He["a"])(t, [
+          {
+            key: "group",
+            get: function () {
+              return this._group;
             },
-            {
-              key: "unregister",
-              value: function () {
-                var t = this;
-                this.a(function (e) {
-                  return e.splice(e.indexOf(t), 1);
-                });
-              },
+            set: function (t) {
+              this._group = t;
+              var e = Ai(this._group),
+                i = Ai(t);
+              e.splice(e.indexOf(this), 1), i.push(this), bi();
             },
-            {
-              key: "raise",
-              value: function () {
-                var t = this;
-                this.a(function (e) {
-                  e.splice(e.indexOf(t), 1), e.push(t);
-                });
-              },
+          },
+          {
+            key: "unregister",
+            value: function () {
+              var t = this;
+              this.a(function (e) {
+                return e.splice(e.indexOf(t), 1);
+              });
             },
-            {
-              key: "a",
-              value: function (t) {
-                t(Ai(this._group)), bi();
-              },
+          },
+          {
+            key: "raise",
+            value: function () {
+              var t = this;
+              this.a(function (e) {
+                e.splice(e.indexOf(t), 1), e.push(t);
+              });
             },
-          ]),
-          t
-        );
-      })(),
+          },
+          {
+            key: "a",
+            value: function (t) {
+              t(Ai(this._group)), bi();
+            },
+          },
+        ]),
+        t
+      );
+    })(),
       vi = new Map(),
       gi = 0;
     function Ai(t) {
@@ -6730,12 +6730,12 @@
         e = gi,
         i = di(yi(vi).sort(wi));
       try {
-        for (i.s(); !(t = i.n()).done; ) {
+        for (i.s(); !(t = i.n()).done;) {
           var n,
             o = t.value,
             s = di(Ai(o));
           try {
-            for (s.s(); !(n = s.n()).done; ) {
+            for (s.s(); !(n = s.n()).done;) {
               var a = n.value;
               e != a.zIndex && ((a.zIndex = e), a.onChange(e)), e++;
             }
@@ -6761,36 +6761,36 @@
       );
     }
     var ki = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          {
-            staticClass: "button",
-            style: t.style,
-            attrs: { disabled: t.disabled },
-            on: {
-              mouseenter: function (e) {
-                t.hover = !0;
-              },
-              mouseleave: function (e) {
-                t.hover = !1;
-              },
-              mousedown: function (e) {
-                return e.stopPropagation(), t.mousedown.apply(null, arguments);
-              },
-              touchstart: function (e) {
-                return e.stopPropagation(), t.mousedown.apply(null, arguments);
-              },
-              mouseup: t.mouseup,
-              touchend: t.mouseup,
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        {
+          staticClass: "button",
+          style: t.style,
+          attrs: { disabled: t.disabled },
+          on: {
+            mouseenter: function (e) {
+              t.hover = !0;
             },
+            mouseleave: function (e) {
+              t.hover = !1;
+            },
+            mousedown: function (e) {
+              return e.stopPropagation(), t.mousedown.apply(null, arguments);
+            },
+            touchstart: function (e) {
+              return e.stopPropagation(), t.mousedown.apply(null, arguments);
+            },
+            mouseup: t.mouseup,
+            touchend: t.mouseup,
           },
-          [t._t("default")],
-          2
-        );
-      },
+        },
+        [t._t("default")],
+        2
+      );
+    },
       xi = [];
     function Ci(t) {
       var e = Si();
@@ -6811,7 +6811,7 @@
       try {
         return (
           Boolean.prototype.valueOf.call(
-            Reflect.construct(Boolean, [], function () {})
+            Reflect.construct(Boolean, [], function () { })
           ),
           !0
         );
@@ -6820,28 +6820,28 @@
       }
     }
     var Oi = function (t, e, i, n) {
-        var o,
-          s = arguments.length,
-          a =
-            s < 3
-              ? e
-              : null === n
+      var o,
+        s = arguments.length,
+        a =
+          s < 3
+            ? e
+            : null === n
               ? (n = Object.getOwnPropertyDescriptor(e, i))
               : n;
-        if (
-          "object" ===
-            ("undefined" === typeof Reflect
-              ? "undefined"
-              : Object(Xe["a"])(Reflect)) &&
-          "function" === typeof Reflect.decorate
-        )
-          a = Reflect.decorate(t, e, i, n);
-        else
-          for (var r = t.length - 1; r >= 0; r--)
-            (o = t[r]) &&
-              (a = (s < 3 ? o(a) : s > 3 ? o(e, i, a) : o(e, i)) || a);
-        return s > 3 && a && Object.defineProperty(e, i, a), a;
-      },
+      if (
+        "object" ===
+        ("undefined" === typeof Reflect
+          ? "undefined"
+          : Object(Xe["a"])(Reflect)) &&
+        "function" === typeof Reflect.decorate
+      )
+        a = Reflect.decorate(t, e, i, n);
+      else
+        for (var r = t.length - 1; r >= 0; r--)
+          (o = t[r]) &&
+            (a = (s < 3 ? o(a) : s > 3 ? o(e, i, a) : o(e, i)) || a);
+      return s > 3 && a && Object.defineProperty(e, i, a), a;
+    },
       Mi = (function (t) {
         Object(We["a"])(i, t);
         var e = Ci(i);
@@ -6863,15 +6863,15 @@
                 var t = this.windowStyle.button;
                 return (
                   this.hover &&
-                    (t = Object.assign(
-                      Object.assign({}, t),
-                      this.windowStyle.buttonHover
-                    )),
+                  (t = Object.assign(
+                    Object.assign({}, t),
+                    this.windowStyle.buttonHover
+                  )),
                   this.active &&
-                    (t = Object.assign(
-                      Object.assign({}, t),
-                      this.windowStyle.buttonActive
-                    )),
+                  (t = Object.assign(
+                    Object.assign({}, t),
+                    this.windowStyle.buttonActive
+                  )),
                   t
                 );
               },
@@ -6927,7 +6927,7 @@
       try {
         return (
           Boolean.prototype.valueOf.call(
-            Reflect.construct(Boolean, [], function () {})
+            Reflect.construct(Boolean, [], function () { })
           ),
           !0
         );
@@ -6936,28 +6936,28 @@
       }
     }
     var Ti = function (t, e, i, n) {
-        var o,
-          s = arguments.length,
-          a =
-            s < 3
-              ? e
-              : null === n
+      var o,
+        s = arguments.length,
+        a =
+          s < 3
+            ? e
+            : null === n
               ? (n = Object.getOwnPropertyDescriptor(e, i))
               : n;
-        if (
-          "object" ===
-            ("undefined" === typeof Reflect
-              ? "undefined"
-              : Object(Xe["a"])(Reflect)) &&
-          "function" === typeof Reflect.decorate
-        )
-          a = Reflect.decorate(t, e, i, n);
-        else
-          for (var r = t.length - 1; r >= 0; r--)
-            (o = t[r]) &&
-              (a = (s < 3 ? o(a) : s > 3 ? o(e, i, a) : o(e, i)) || a);
-        return s > 3 && a && Object.defineProperty(e, i, a), a;
-      },
+      if (
+        "object" ===
+        ("undefined" === typeof Reflect
+          ? "undefined"
+          : Object(Xe["a"])(Reflect)) &&
+        "function" === typeof Reflect.decorate
+      )
+        a = Reflect.decorate(t, e, i, n);
+      else
+        for (var r = t.length - 1; r >= 0; r--)
+          (o = t[r]) &&
+            (a = (s < 3 ? o(a) : s > 3 ? o(e, i, a) : o(e, i)) || a);
+      return s > 3 && a && Object.defineProperty(e, i, a), a;
+    },
       Vi = [],
       _i = (function (t) {
         Object(We["a"])(i, t);
@@ -7039,9 +7039,9 @@
                 return 1 == this.$store.getters.currentThemeIndex
                   ? Object.assign({}, { padding: this.titlebarPadding })
                   : Object.assign(
-                      Object.assign({}, this.windowStyle.titlebar),
-                      { padding: this.titlebarPadding }
-                    );
+                    Object.assign({}, this.windowStyle.titlebar),
+                    { padding: this.titlebarPadding }
+                  );
               },
             },
             {
@@ -7052,7 +7052,7 @@
                   this.resizable
                     ? (t.padding = "0")
                     : void 0 != this.padding &&
-                      (t.padding = "".concat(this.padding, "px")),
+                    (t.padding = "".concat(this.padding, "px")),
                   this.isScrollable && (t.overflow = "auto"),
                   t
                 );
@@ -7093,7 +7093,7 @@
                           )),
                           e.resizable && e.initResizeHelper());
                   }),
-                  this.activateWhenOpen && this.activate());
+                    this.activateWhenOpen && this.activate());
               },
             },
             {
@@ -7110,15 +7110,15 @@
                 e.left < 0 && (t.style.left = "0px"),
                   e.top < 0 && (t.style.top = "0px"),
                   e.right > window.innerWidth &&
-                    (t.style.left = "".concat(
-                      window.innerWidth - e.width,
-                      "px"
-                    )),
+                  (t.style.left = "".concat(
+                    window.innerWidth - e.width,
+                    "px"
+                  )),
                   e.bottom > window.innerHeight &&
-                    (t.style.top = "".concat(
-                      window.innerHeight - e.height,
-                      "px"
-                    ));
+                  (t.style.top = "".concat(
+                    window.innerHeight - e.height,
+                    "px"
+                  ));
               },
             },
             {
@@ -7155,7 +7155,7 @@
                   s = this.windowElement();
                 if (
                   (void 0 != e && (s.style.width = "".concat(e, "px")),
-                  void 0 != i)
+                    void 0 != i)
                 ) {
                   var a = Ri(this.titlebarElement()).height;
                   s.style.height = "".concat(i + a, "px");
@@ -7191,8 +7191,8 @@
               key: "onWindowResize",
               value: function () {
                 var t =
-                    !(arguments.length > 0 && void 0 !== arguments[0]) ||
-                    arguments[0],
+                  !(arguments.length > 0 && void 0 !== arguments[0]) ||
+                  arguments[0],
                   e = this.windowElement(),
                   i = this.titlebarElement(),
                   n = this.contentElement(),
@@ -7210,7 +7210,7 @@
                   Hi(),
                   this.$emit("resize", new Ui(h, d)),
                   t &&
-                    (this.$emit("update:width", h),
+                  (this.$emit("update:width", h),
                     this.$emit("update:height", d));
               },
             },
@@ -7492,9 +7492,9 @@
       Xi = Gi.exports;
     function Ni(t) {
       var e =
-          arguments.length > 1 && void 0 !== arguments[1]
-            ? arguments[1]
-            : { prefix: "silveos-window" },
+        arguments.length > 1 && void 0 !== arguments[1]
+          ? arguments[1]
+          : { prefix: "gravity-window" },
         i = e.prefix;
       t.component("".concat(i), Xi),
         t.component("".concat(i, "-style-black"), ci),
@@ -7507,206 +7507,206 @@
       Ki = i.n(Ji);
     o["a"].use(n), o["a"].use(Ki.a);
     var qi = {
-        name: "App",
-        components: {
-          DateTime: v,
-          StartMenu: tt,
-          StartMenuModern: lt,
-          Calculator: mt,
-          Calendar: xt,
-          Settings: Be,
-          IFrameBypass: Ie,
-          ExcelIcon: P,
-        },
-        data: function () {
-          return {
-            drawer: !1,
-            search: null,
-            showSearch: !1,
-            showInternetBrowser: !1,
-            startMenuKey: 0,
-            taskbarItemOrder: 1,
-            onLine: navigator.onLine,
-            isFullScreen: !1,
-            windowHeight: window.innerHeight,
-          };
-        },
-        created: function () {
-          null != localStorage.getItem("currentThemeIndex") &&
-            (console.log("changeThemeAction", localStorage.currentThemeIndex),
+      name: "App",
+      components: {
+        DateTime: v,
+        StartMenu: tt,
+        StartMenuModern: lt,
+        Calculator: mt,
+        Calendar: xt,
+        Settings: Be,
+        IFrameBypass: Ie,
+        ExcelIcon: P,
+      },
+      data: function () {
+        return {
+          drawer: !1,
+          search: null,
+          showSearch: !1,
+          showInternetBrowser: !1,
+          startMenuKey: 0,
+          taskbarItemOrder: 1,
+          onLine: navigator.onLine,
+          isFullScreen: !1,
+          windowHeight: window.innerHeight,
+        };
+      },
+      created: function () {
+        null != localStorage.getItem("currentThemeIndex") &&
+          (console.log("changeThemeAction", localStorage.currentThemeIndex),
             this.$store.dispatch(
               "changeThemeAction",
               localStorage.currentThemeIndex
             )),
-            (this.$vuetify.theme.dark = this.currentTheme.isDarkTheme),
-            null != localStorage.getItem("desktopUrl") &&
-              (console.log("changeDesktopUrlAction", localStorage.desktopUrl),
-              this.$store.dispatch(
-                "changeDesktopUrlAction",
-                localStorage.desktopUrl
-              )),
-            null != localStorage.getItem("themePrimaryColor") &&
-              (console.log(
-                "changeThemePrimaryColorAction",
-                localStorage.themePrimaryColor
-              ),
-              this.$store.dispatch(
-                "changeThemePrimaryColorAction",
-                localStorage.themePrimaryColor
-              )),
-            this.$store.dispatch("getInstalledApps");
+          (this.$vuetify.theme.dark = this.currentTheme.isDarkTheme),
+          null != localStorage.getItem("desktopUrl") &&
+          (console.log("changeDesktopUrlAction", localStorage.desktopUrl),
+            this.$store.dispatch(
+              "changeDesktopUrlAction",
+              localStorage.desktopUrl
+            )),
+          null != localStorage.getItem("themePrimaryColor") &&
+          (console.log(
+            "changeThemePrimaryColorAction",
+            localStorage.themePrimaryColor
+          ),
+            this.$store.dispatch(
+              "changeThemePrimaryColorAction",
+              localStorage.themePrimaryColor
+            )),
+          this.$store.dispatch("getInstalledApps");
+      },
+      methods: {
+        updateIsOpenWindow: function (t) {
+          this.$emit("update:isOpen", !1);
         },
-        methods: {
-          updateIsOpenWindow: function (t) {
-            this.$emit("update:isOpen", !1);
-          },
-          toggleAppState: function (t) {
-            this.$store.dispatch("toggleAppStateAction", t);
-          },
-          toggleApp: function (t, e) {
-            this.$store.dispatch("toggleAppAction", { id: t, isOpen: e });
-          },
-          toggleAppUrl: function (t, e, i) {
-            this.$store.dispatch("toggleAppUrlAction", {
-              id: t,
-              url: e,
-              isOpen: i,
-            });
-          },
-          closeApp: function (t) {
-            this.$store.dispatch("closeAppAction", t);
-          },
-          searchInternet: function (t) {
-            13 === t.keyCode &&
-              this.toggleAppUrl(
-                2,
-                "https://www.google.com/search?igu=1&q=" + this.search,
-                !0
-              );
-          },
-          forceRerenderStartMenu: function () {
-            this.startMenuKey += 1;
-          },
-          openAdsterraDirect: function () {
-            window.open(
-              "https://www.passeura.com/c55cjgm3u?key=fd5c8ef8270209f0dffbb7c5c8355385",
-              "_blank"
+        toggleAppState: function (t) {
+          this.$store.dispatch("toggleAppStateAction", t);
+        },
+        toggleApp: function (t, e) {
+          this.$store.dispatch("toggleAppAction", { id: t, isOpen: e });
+        },
+        toggleAppUrl: function (t, e, i) {
+          this.$store.dispatch("toggleAppUrlAction", {
+            id: t,
+            url: e,
+            isOpen: i,
+          });
+        },
+        closeApp: function (t) {
+          this.$store.dispatch("closeAppAction", t);
+        },
+        searchInternet: function (t) {
+          13 === t.keyCode &&
+            this.toggleAppUrl(
+              2,
+              "https://www.google.com/search?igu=1&q=" + this.search,
+              !0
             );
-          },
-          openPropellerAdsDirect: function () {
-            window.open("http://serconmp.com/afu.php?zoneid=2964282", "_blank");
-          },
-          selectElementText: function (t) {
-            var e = document.createRange();
-            e.selectNodeContents(t);
-            var i = window.getSelection();
-            i.removeAllRanges(), i.addRange(e);
-          },
-          copyBtcAddress: function () {
-            var t = this.$el.querySelector("#btcAddress");
-            this.selectElementText(t);
-            try {
-              document.execCommand("copy");
-            } catch (e) {}
-          },
-          updateOnlineStatus: function (t) {
-            var e = t.type;
-            this.onLine = "online" === e;
-          },
-          isMaximizedWindow: function (t) {
-            return this.isWindowSmall || this.isMobile
-              ? 18 != t.id && ((t.isMaximized = !0), (t.isResizible = !1), !0)
-              : t.isMaximized;
-          },
-          randomColor: function () {
-            return "#" + ((16777215 * Math.random()) << 0).toString(16);
-          },
-          onResize: function () {
-            this.windowHeight = window.innerHeight;
-          },
-          toggleFullScreen: function () {
-            this.isFullScreen = !this.isFullScreen;
-          },
         },
-        computed: {
-          apps: function () {
-            return this.$store.getters.apps;
-          },
-          desktopApps: function () {
-            return this.$store.getters.apps.filter(function (t) {
-              return t.isDesktopVisible;
-            });
-          },
-          isShutdown: function () {
-            return this.$store.getters.isShutdown;
-          },
-          shutdownOpacity: function () {
-            return this.$store.getters.shutdownOpacity;
-          },
-          desktopUrl: function () {
-            return this.$store.getters.desktopUrl;
-          },
-          themePrimaryColor: function () {
-            return this.$store.getters.themePrimaryColor;
-          },
-          currentThemeIndex: function () {
-            return this.$store.getters.currentThemeIndex;
-          },
-          currentTheme: function () {
-            return this.$store.getters.currentTheme;
-          },
-          installedApps: function () {
-            return this.$store.state.installedApps;
-          },
-          isWindowSmall: function () {
-            return window.innerWidth <= 720 || window.innerHeight <= 375;
-          },
-          isMobile: function () {
-            return (
-              Boolean(this.$route.query && this.$route.query.mobile) ||
-              this.isMobileBrowser
-            );
-          },
-          isMobileBrowser: function () {
-            return !!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-              navigator.userAgent
-            );
-          },
-          hideSideBar: function () {
-            return !1;
-          },
-          taskbarHeight: function () {
-            return this.isMobile ? 32 : 48;
-          },
-          startMenuStyle: function () {
-            return {
-              "--start-menu-height": this.isMobile ? "84vh" : "60vh",
-              "--start-menu-max-height": this.isMobile ? "64vw" : "46vw",
-              "--start-menu-width": this.isMobile ? "64vw" : "46vw",
-            };
-          },
-          desktopStyle: function () {
-            var t = this.desktopApps.length + this.installedApps.length;
-            return {
-              "--desktop-grid-cols":
-                Math.floor((65 * t) / this.windowHeight) + 1,
-            };
-          },
+        forceRerenderStartMenu: function () {
+          this.startMenuKey += 1;
         },
-        mounted: function () {
-          var t = this;
-          window.addEventListener("online", this.updateOnlineStatus),
-            window.addEventListener("offline", this.updateOnlineStatus),
-            this.$nextTick(function () {
-              window.addEventListener("resize", t.onResize);
-            });
+        openAdsterraDirect: function () {
+          window.open(
+            "https://www.passeura.com/c55cjgm3u?key=fd5c8ef8270209f0dffbb7c5c8355385",
+            "_blank"
+          );
         },
-        beforeDestroy: function () {
-          window.removeEventListener("online", this.updateOnlineStatus),
-            window.removeEventListener("offline", this.updateOnlineStatus),
-            window.removeEventListener("resize", this.onResize);
+        openPropellerAdsDirect: function () {
+          window.open("http://serconmp.com/afu.php?zoneid=2964282", "_blank");
+        },
+        selectElementText: function (t) {
+          var e = document.createRange();
+          e.selectNodeContents(t);
+          var i = window.getSelection();
+          i.removeAllRanges(), i.addRange(e);
+        },
+        copyBtcAddress: function () {
+          var t = this.$el.querySelector("#btcAddress");
+          this.selectElementText(t);
+          try {
+            document.execCommand("copy");
+          } catch (e) { }
+        },
+        updateOnlineStatus: function (t) {
+          var e = t.type;
+          this.onLine = "online" === e;
+        },
+        isMaximizedWindow: function (t) {
+          return this.isWindowSmall || this.isMobile
+            ? 18 != t.id && ((t.isMaximized = !0), (t.isResizible = !1), !0)
+            : t.isMaximized;
+        },
+        randomColor: function () {
+          return "#" + ((16777215 * Math.random()) << 0).toString(16);
+        },
+        onResize: function () {
+          this.windowHeight = window.innerHeight;
+        },
+        toggleFullScreen: function () {
+          this.isFullScreen = !this.isFullScreen;
         },
       },
+      computed: {
+        apps: function () {
+          return this.$store.getters.apps;
+        },
+        desktopApps: function () {
+          return this.$store.getters.apps.filter(function (t) {
+            return t.isDesktopVisible;
+          });
+        },
+        isShutdown: function () {
+          return this.$store.getters.isShutdown;
+        },
+        shutdownOpacity: function () {
+          return this.$store.getters.shutdownOpacity;
+        },
+        desktopUrl: function () {
+          return this.$store.getters.desktopUrl;
+        },
+        themePrimaryColor: function () {
+          return this.$store.getters.themePrimaryColor;
+        },
+        currentThemeIndex: function () {
+          return this.$store.getters.currentThemeIndex;
+        },
+        currentTheme: function () {
+          return this.$store.getters.currentTheme;
+        },
+        installedApps: function () {
+          return this.$store.state.installedApps;
+        },
+        isWindowSmall: function () {
+          return window.innerWidth <= 720 || window.innerHeight <= 375;
+        },
+        isMobile: function () {
+          return (
+            Boolean(this.$route.query && this.$route.query.mobile) ||
+            this.isMobileBrowser
+          );
+        },
+        isMobileBrowser: function () {
+          return !!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          );
+        },
+        hideSideBar: function () {
+          return !1;
+        },
+        taskbarHeight: function () {
+          return this.isMobile ? 32 : 48;
+        },
+        startMenuStyle: function () {
+          return {
+            "--start-menu-height": this.isMobile ? "84vh" : "60vh",
+            "--start-menu-max-height": this.isMobile ? "64vw" : "46vw",
+            "--start-menu-width": this.isMobile ? "64vw" : "46vw",
+          };
+        },
+        desktopStyle: function () {
+          var t = this.desktopApps.length + this.installedApps.length;
+          return {
+            "--desktop-grid-cols":
+              Math.floor((65 * t) / this.windowHeight) + 1,
+          };
+        },
+      },
+      mounted: function () {
+        var t = this;
+        window.addEventListener("online", this.updateOnlineStatus),
+          window.addEventListener("offline", this.updateOnlineStatus),
+          this.$nextTick(function () {
+            window.addEventListener("resize", t.onResize);
+          });
+      },
+      beforeDestroy: function () {
+        window.removeEventListener("online", this.updateOnlineStatus),
+          window.removeEventListener("offline", this.updateOnlineStatus),
+          window.removeEventListener("resize", this.onResize);
+      },
+    },
       Zi = qi,
       $i = (i("034f"), i("7496")),
       tn = i("40dc"),
@@ -7752,7 +7752,7 @@
       vn = i.n(mn),
       gn = i("d21b"),
       An = i.n(gn),
-      wn = "silveosdb",
+      wn = "gravitydb",
       bn = 1,
       yn = {
         getDb: (function () {
@@ -8594,15 +8594,15 @@
   "5ff0": function (t, e, i) {
     t.exports = i.p + "img/theme_classic_preview.b69cdaaa.png";
   },
-  "64a9": function (t, e, i) {},
-  "65a1": function (t, e, i) {},
+  "64a9": function (t, e, i) { },
+  "65a1": function (t, e, i) { },
   "6b4c": function (t, e, i) {
     "use strict";
     var n = i("89bc"),
       o = i.n(n);
     e["default"] = o.a;
   },
-  "6b66": function (t, e, i) {},
+  "6b66": function (t, e, i) { },
   "6bce": function (t, e, i) {
     "use strict";
     var n = i("ead4"),
@@ -8648,7 +8648,7 @@
   "785d": function (t, e, i) {
     t.exports = i.p + "img/notepad.4eb7b8c2.png";
   },
-  "89bc": function (t, e) {},
+  "89bc": function (t, e) { },
   "92f7": function (t, e) {
     t.exports =
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAn1BMVEXvUkDvUkLuUUHtUUHtUEHtUEPsUEPsUUPsUUXsT0btT0fsTkbsTkjsTUjsTUrrTEnrTEvsSkzsSU3sSU7sSVDsSFHsSFLrR1HqR1HqR1LqR1PpRlLpRVTpRVbpRFfpRFjoQ1boQ1noQ1roQ1voQlvoQl3nQVvoQFzpQF3nPl7nPWHnPWTmPGPmO2TmO2XmO2fmO2bkPGbnPGjlO2f///9Upb9vAAAAAWJLR0Q0qbHp/QAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+UKCA8GJRNbJCMAAAABb3JOVAHPoneaAAABSklEQVR42u3PV04VABQA0StIUWmC2OggRQFp+98byVvC+5lMMmcFMzNJ3D7INUBrgOYfWJGbVbkGaA3QGqD5Bz7KzZrcrMvNhpx/YFOuAVoDNP/AJ7n5LNcAzT/wRc4/sCXXAM0/sC03O3IN0Bqg+Qd25RqgNUBrgNYAbfbkGqA1QGuA1gBtvso1QGuA5h/Yl5sDuQZo/oFvcg3QGqD5Bw7l5rtcA7T5ITc/5Rqg+Qd+yc1vuQZocyTXAK0B2hzLNUBrgNYAbU7kGqD5B07l5kyuAVoDtAZoDdD8A+dyDdAaoM2FXAO0Bmj+gUu5uZJrgDZ/5OZazj9wI9cAzT9wKzd3cg3QGqA1QGuA1gCtAVoDtAZo81euAZp/4J/c3Ms1QGuA1gCtAZp/4EGuAVoDtAZoDdDmUW7+y83TAp2xrOeXeV14pkuW9PT2DnHdzK+ctIaGAAAArmVYSWZJSSoACAAAAAYAEgEDAAEAAAABAAAAGgEFAAEAAABWAAAAGwEFAAEAAABeAAAAKAEDAAEAAAACAAAAMQECABEAAABmAAAAaYcEAAEAAAB4AAAAAAAAAGAAAAABAAAAYAAAAAEAAABwYWludC5uZXQgNC4yLjEwAAAEAACQBwAEAAAAMDIzMAGgAwABAAAAAQAAAAKgBAABAAAAwAAAAAOgBAABAAAAwAAAAAAAAACnHtIeAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTEwLTA4VDE1OjA2OjM3KzAwOjAwy9a9dAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0xMC0wOFQxNTowNjozNyswMDowMLqLBcgAAAARdEVYdGV4aWY6Q29sb3JTcGFjZQAxD5sCSQAAABN0RVh0ZXhpZjpFeGlmT2Zmc2V0ADEyMK96KgkAAAAfdEVYdGV4aWY6RXhpZlZlcnNpb24ANDgsIDUwLCA1MSwgNDgpsxDeAAAAGHRFWHRleGlmOlBpeGVsWERpbWVuc2lvbgAxOTJ5/poIAAAAGHRFWHRleGlmOlBpeGVsWURpbWVuc2lvbgAxOTLk8Xt+AAAAHnRFWHRleGlmOlNvZnR3YXJlAHBhaW50Lm5ldCA0LjIuMTCPYkHbAAAAAElFTkSuQmCC";
@@ -8664,11 +8664,11 @@
   a078: function (t, e, i) {
     t.exports = i.p + "img/currency_calculator.c0aa0bd3.png";
   },
-  a979: function (t, e, i) {},
+  a979: function (t, e, i) { },
   a97d: function (module, __webpack_exports__, __webpack_require__) {
     "use strict";
     var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__ =
-        __webpack_require__("c5f6"),
+      __webpack_require__("c5f6"),
       core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0___default =
         __webpack_require__.n(
           core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__
@@ -8712,7 +8712,7 @@
     t.exports =
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAYAAACc7RhZAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAIpUlEQVRYw7WZfXBNZx7HP+fem3d5k3cSeisSb11FKN2lY4YdmY7VtQ3a6q7YCiFKEEm9pOolEjSJUKG02q0KYXQxmJ3ZDrazlroRW1IRQlfeCXmRRN7uPfvHyT0997o3OUF+M+eP8/ye832e53t+b+d3BFTIWdB5wAQRpgFjAT3gDeisplZFQKD5RgQhD94WIEaE1wAn4AZwyAF2DIdGNevnwVQgVoRxQC/gpgBHNLB9BNTae84AqUCi+X5kW5upLDm5oWrzZg/zmK6zhf8Lbm2wDFgigg/dkAJwNECOANNFS9VwYHgbRF+CKa/BXXsYuaB9Gb4Q4S9WqqEiDDXC3CsQORJ+VrUpk0lDS4uHckjTCevvtcEtYD3dPDxAM2QJML2TKWFaOH0BXOxNeBk28fThldLPBGfywYtnFJ0d1tNEWG7rAacBA3AOD0cXEIDg4GChE7TaVrKz+VF6QzG/0qzBc8oUtN7e1J08ibG+3qwZ5CCZ6DrrdX6EEJR7EAQ8Jk3CITCQulOnaH/0SCbBCJ8AS56bgFzQ6iEXqzen9fIiYOlSvGfOxHnQIPsW1tDgTXY2WnhbBME83n/vXnznzpUso6iIwjFjMNbVSeeChIuwbyyUWpnmH5X7C966lYDlEh+tpaUURkTQVlVlVscaIDsCCrtLgMbK5FKtzdYnOpphxcUEJCbSlJfHnagoroeFke/mRp4gWFz57u6NACYIlcnz8MA3OpqyxER+HjYMx379CFq7VrmEqxY229hbqMKy8I+LozI1lWt6PVp3d/qkpCjnOgDbnsUCZAIuwzvACnlRnY6QHTt46csvqT9zhoKwMO7Onk3N0aO03LqFqanJLqggRXuZAASB5qIinhQUcD89Hf/Fi3EKDVXOf88gZQkUGUTGEJydEZycaC4qovWXX6jYuBHfOXNwHTFC+cibBvj9MxFwAVwE2KJUhOzcid+CBdxbtIi7s2fTWlLCi5DK1FTaHz4keOtWK87IVLpNZ3I/K4uWu3cJzsiwVmWe7SKz2STAEZYCweZB35gY/ObPp2TJEh7s2mX9TDtwToT9InyuvIBvulrQ+Pgx5WvW4PXWW7hPnKhUjTXATDWbFltbKU1IwP2NN/CabuGxg91hXreCYC5ogXhlwOubksKjb7996vAdB/14DFQ+jxVUf/UVfnFxBKenUxgRgWg0ms0g7QIcfx2edIVR+913PD53juAtW6g7dQqxpcWs+iQfcjorkCwsIBR+C/iZB/yXLEHj5kbZRx9ZH37BaJj/vIfvKEgojY/H9dVX8YmOtsjrjnbSry0pjY/HSa/H/8MPlcN+Rlir2gVMUnkrS+8ZM6g5csTa53ePhj28QHl8/jy1x47RZ+NGtO7uSlXiFeijBqPp6lWq9+8naPVqdP7+SlVcPgxUGwNel4uc0FCchwyh7vhx5ZxWDSTTA1K6ciU6Ly8CV61SDvcySRWgKilfswY0GvqsX68cdjTCVrUEDDDfOIeHA9CYl6ecc34kPOgJAlqKi7mflYX/0qU46fVK1Z+BkWow2iorqdy8Gd8PPsDllVeUqmnARDUEeMrVRFAQiCJtFRVK3y+iB6Vi0yZM9fX0TUuz2JcAEWox7mdk0FZSQnB6urVqTLcqQQTBVlEj9CQBxro6ypOT8Y6Kotf48c8WU5ubKU1MxGPSJDynTu12IVQnm1N5OQiCZAm/EhDWEy8ekKNs9b59PPnpJ0K2bweNRi1GPYravyY3l4YffiAkIwPByUk9ASLclj9hb94EwG3UKKULTLgIAS+YgCcCyHlWNBopWbYM1xEj8Hn/fdXGY/3FWrJsGU56PX6xseoJEOCCHJRu36a5sBDPaRaZ0VEHG160CYyEg8AlOS1+/z21J07QNyUFTa9eqjBGw2ngH3JaNBh4eOAAfZKT0fn4qCbAIufVHD6Md1QUjv36KYfnGSD2RRIggKiRKlC5YVSWkIDO15fAlSvV+79kBe0yxqpVCI6OBK1bp46AYskC5DRXlZmJqbGRvpuf+kLdZYB9BghSgeui0gr+AxySXbCoiPuffUbAihXWL8CujIECpO8QKY6VlVGZlobfggU4DxnSNQEzwAjI+cNYW0tZUhK9330Xv0WLrOf/FSgxwL8MsP8y7LFxfUP3PkuTUNT+FRs2SC8gNbU7BvUxitq/6tNPaauoIHhb1y0CDcBjyLSOyg927yYkMxP/uDjrZ7TAeGCOADE2rtnSB6Y6iYB7ymaGsaaG8nXr6D1rFm7jxqnFqEYRp0xNTZQlJeEZGYlnZGTXBEyEZgESLCLq4sVU791LyI4d6HNycOzfv8dqARepF1Euv4A9e2i+cYOQ9HSbtYkdjJ1ITVwAHuXk0HjxIsHbtiHodF0XQqPgMCCXY2J7O/cWLuR/8+bhMXkyQwsL0R88KPUFw8PRuLqq2pjZD9sfPrRIgxY9bmgAVinXLlm+HLexY/GLicF58GDZPS0bzxYYraKio4UoUhIfj/PgwQQsX47TwIEIDg6dYiCCJg+OGkBUXvmenmJZcrLYdP26+CzScOmSmOfgoMQ89lSTAzSX4bJy3eqvv5Yxmq5dE6+4uCgxztoi/DL8U4lRlZkpYzQXF4v5Xl5KjKuCrY0YpOZogs22uF6P86BBUlvcsWtXb6+upv70aUzNzco13hmtiP6KfxHjRTiPufw2t9O9vKg9cQJTQ4Ny+sIIyLaB8RsRrnTEKgA8Jk/GITCQ2pMnLSxAgNV2HewyzBKk4NT3Bbv8v0fBBAFMdn7IfCHC3C4wrrlAxFBotaU0SPvuqrFyxwWGazqpsg4BYQKsRoqyzy0iGNrhT/YOD+ABC4G/dwJTYII37R2+I6slAX/rBKPYCJFDoUFViM0F7UvwOy1ME6UGivnnqIOKxxuB6yIccIXPO9u4gijhCkSZpLQa0eESt4CDrZCtpmfYYcV/AGIFqeWuA+4IkOsMWR2Bl/8D6fhDgDx8nB4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDktMjVUMTM6Mjk6MzcrMDA6MDBroOvdAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTA5LTI1VDEzOjI5OjM3KzAwOjAwGv1TYQAAAABJRU5ErkJggg==";
   },
-  b103: function (t, e, i) {},
+  b103: function (t, e, i) { },
   b11f: function (t, e, i) {
     "use strict";
     i("b103");
@@ -8723,10 +8723,10 @@
   b916: function (t, e, i) {
     t.exports = i.p + "img/dictionary.b23fc43f.png";
   },
-  ba6b: function (t, e, i) {},
-  ba81: function (t, e, i) {},
-  bd67: function (t, e, i) {},
-  bf5d: function (t, e, i) {},
+  ba6b: function (t, e, i) { },
+  ba81: function (t, e, i) { },
+  bd67: function (t, e, i) { },
+  bf5d: function (t, e, i) { },
   c6a1: function (t, e, i) {
     t.exports = i.p + "img/crossnote.ff910308.png";
   },
@@ -8744,7 +8744,7 @@
     "use strict";
     i("ea4f");
   },
-  e151: function (t, e, i) {},
+  e151: function (t, e, i) { },
   e3dc: function (t, e, i) {
     "use strict";
     i("a979");
@@ -8752,7 +8752,7 @@
   e78c: function (t, e, i) {
     t.exports = i.p + "img/material_money.fd9adf65.png";
   },
-  ea4f: function (t, e, i) {},
+  ea4f: function (t, e, i) { },
   ead4: function (t, e, i) {
     "use strict";
     i.d(e, "a", function () {
@@ -8762,74 +8762,74 @@
         return o;
       });
     var n = function () {
-        var t = this,
-          e = t.$createElement,
-          i = t._self._c || e;
-        return i(
-          "div",
-          { staticStyle: { padding: "10px" } },
-          [
-            i("h1", [t._v("GravityOS")]),
-            i(
-              "span",
-              {
-                staticClass: "v-card__text",
-                staticStyle: { color: "rgba(0, 0, 0, 0.54)" },
-              },
-              [
-                t._v(
-                  "\n        GravityOS - World's First Web Based Operating System. It provides a cross-platform environment with Simple UI inside a web browser.\n        The team had inspired by the Pareto principle, or more commonly 'the 80/20' rule.  It claims that roughly 80% of output is a direct result of about 20% of the input. So the mission of GravityOS is to move 20% most used operating system functionality online.\n    "
-                ),
-              ]
-            ),
-            i(
-              "v-timeline",
-              { attrs: { light: "" } },
-              [
-                i(
-                  "v-timeline-item",
-                  {
-                    key: "1",
-                    attrs: {
-                      color: "purple lighten-2",
-                      "fill-dot": "",
-                      small: "",
-                    },
-                    scopedSlots: t._u([
-                      {
-                        key: "opposite",
-                        fn: function () {
-                          return [
-                            i("span", { staticClass: "date" }, [
-                              t._v("Aug, 2023"),
-                            ]),
-                          ];
-                        },
-                        proxy: !0,
-                      },
-                    ]),
+      var t = this,
+        e = t.$createElement,
+        i = t._self._c || e;
+      return i(
+        "div",
+        { staticStyle: { padding: "10px" } },
+        [
+          i("h1", [t._v("GravityOS")]),
+          i(
+            "span",
+            {
+              staticClass: "v-card__text",
+              staticStyle: { color: "rgba(0, 0, 0, 0.54)" },
+            },
+            [
+              t._v(
+                "\n        GravityOS - World's First Web Based Operating System. It provides a cross-platform environment with Simple UI inside a web browser.\n        The team had inspired by the Pareto principle, or more commonly 'the 80/20' rule.  It claims that roughly 80% of output is a direct result of about 20% of the input. So the mission of GravityOS is to move 20% most used operating system functionality online.\n    "
+              ),
+            ]
+          ),
+          i(
+            "v-timeline",
+            { attrs: { light: "" } },
+            [
+              i(
+                "v-timeline-item",
+                {
+                  key: "1",
+                  attrs: {
+                    color: "purple lighten-2",
+                    "fill-dot": "",
+                    small: "",
                   },
-                  [
-                    i(
-                      "v-card",
-                      { staticClass: "elevation-2" },
-                      [
-                        i("v-card-title", { staticClass: "headline" }, [
-                          t._v("Initial release"),
-                        ])
-                      ],
-                      1
-                    ),
-                  ],
-                  1
-                )
-              ],
-              1
-            ),
-          ],
-          1
-        );
-      },
+                  scopedSlots: t._u([
+                    {
+                      key: "opposite",
+                      fn: function () {
+                        return [
+                          i("span", { staticClass: "date" }, [
+                            t._v("Aug, 2023"),
+                          ]),
+                        ];
+                      },
+                      proxy: !0,
+                    },
+                  ]),
+                },
+                [
+                  i(
+                    "v-card",
+                    { staticClass: "elevation-2" },
+                    [
+                      i("v-card-title", { staticClass: "headline" }, [
+                        t._v("Initial release"),
+                      ])
+                    ],
+                    1
+                  ),
+                ],
+                1
+              )
+            ],
+            1
+          ),
+        ],
+        1
+      );
+    },
       o = [];
   },
   ec0e: function (t, e, i) {
